@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2025 kenway214
+     SPDX-FileCopyrightText: 2025 keosh1
+     SPDX-License-Identifier: Apache-2.0
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- GameBar -->
+    <string name="tile_add">Добавить плитку</string>
+    <string name="tile_added">Плитка добавлена</string>
+    <string name="tile_not_added">Плитка не добавлена</string>
+    <string name="tile_already_added">Плитка уже добавлена</string>
+    <string name="tile_on">Включено</string>
+    <string name="tile_off">Выключено</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Значение: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">по умолчанию</string>
+    <string name="custom_seekbar_default_value_to_set">Значение по умолчанию: <xliff:g id="v">%s</xliff:g>\nДлительное нажатие для установки</string>
+    <string name="custom_seekbar_default_value_is_set">Значение по умолчанию установлено</string>
+
+    <!-- GameBar Overlay -->
+    <string name="game_bar_summary">Включить системное наложение (FPS, Temp и т.д.)</string>
+    <string name="overlay_permission_required">Требуется разрешение на наложение</string>
+    <string name="overlay_permission_granted">Разрешение на наложение предоставлено</string>
+    <string name="overlay_permission_denied">Разрешение на наложение отклонено</string>
+    <string name="game_bar_tile_description">Переключить игровое наложение</string>
+    <string name="game_bar_user_guide">Руководство пользователя</string>
+
+    <!-- ColorPicker -->
+    <string name="gamebar_default_title">Выберите цвет</string>
+    <string name="gamebar_presets">Предустановки</string>
+    <string name="gamebar_custom">Пользовательский</string>
+    <string name="gamebar_select">Выбрать</string>
+    <string name="gamebar_transparency">Прозрачность</string>
+
+    <!-- Preferences - Main -->
+    <string name="enable_gamebar_overlay">Включить наложение GameBar</string>
+
+    <!-- Preferences - Overlay Features -->
+    <string name="category_overlay_features">Функции наложения</string>
+    <string name="fps_overlay">Наложение FPS</string>
+    <string name="fps_overlay_summary">Показывать текущий FPS на экране</string>
+    <string name="frame_time">Время кадра</string>
+    <string name="frame_time_summary">Показывать время кадра в миллисекундах</string>
+    <string name="device_temperature">Температура устройства</string>
+    <string name="device_temperature_summary">Показывать температуру устройства</string>
+    <string name="cpu_usage">Использование ЦП</string>
+    <string name="cpu_usage_summary">Показывать текущий процент использования ЦП</string>
+    <string name="cpu_clock_speeds">Частоты ЦП</string>
+    <string name="cpu_clock_speeds_summary">Показывать текущие частоты ЦП для каждого ядра</string>
+    <string name="cpu_temperature">Температура ЦП</string>
+    <string name="cpu_temperature_summary">Показывать температуру ЦП</string>
+    <string name="ram_usage">Использование ОЗУ</string>
+    <string name="ram_usage_summary">Показывать текущее использование ОЗУ в МБ</string>
+    <string name="ram_frequency">Частота ОЗУ</string>
+    <string name="ram_frequency_summary">Показывать текущую частоту ОЗУ (шина) в ГГц</string>
+    <string name="ram_temperature">Температура ОЗУ</string>
+    <string name="ram_temperature_summary">Показывать текущую температуру ОЗУ</string>
+    <string name="gpu_usage">Использование ГП</string>
+    <string name="gpu_usage_summary">Показывать процент использования ГП</string>
+    <string name="gpu_clock_speed">Частота ГП</string>
+    <string name="gpu_clock_speed_summary">Показывать текущую частоту ГП</string>
+    <string name="gpu_temperature">Температура ГП</string>
+    <string name="gpu_temperature_summary">Показывать текущую температуру ГП</string>
+
+    <!-- Preferences - FPS Method -->
+    <string name="category_fps_method">Метод измерения FPS</string>
+    <string name="fps_display_mode">Режим отображения FPS</string>
+    <string name="fps_display_mode_summary">Выбрать, какие статистики FPS отображать</string>
+    <string name="select_fps_method">Выбрать метод FPS</string>
+    <string name="select_fps_method_summary">Выбрать между новым методом API (по умолчанию) и устаревшим Sysfs</string>
+
+    <!-- Preferences - Customization -->
+    <string name="category_customization">Настройка</string>
+    <string name="text_size">Размер текста</string>
+    <string name="text_size_summary">Настроить размер текста наложения</string>
+    <string name="background_transparency">Прозрачность фона</string>
+    <string name="background_transparency_summary">Настроить прозрачность фона</string>
+    <string name="overlay_background_color">Цвет фона наложения</string>
+    <string name="overlay_background_color_summary">Цвет для фона наложения</string>
+    <string name="overlay_corner_radius">Радиус углов наложения</string>
+    <string name="overlay_corner_radius_summary">Настроить округление углов наложения</string>
+    <string name="overlay_padding">Отступ наложения</string>
+    <string name="overlay_padding_summary">Настроить пространство вокруг статистики</string>
+    <string name="item_spacing">Расстояние между элементами</string>
+    <string name="item_spacing_summary">Настроить расстояние между строками наложения</string>
+    <string name="update_interval">Интервал обновления</string>
+    <string name="update_interval_summary">Установить частоту обновления значений наложения</string>
+    <string name="stat_title_color">Цвет заголовка статистики</string>
+    <string name="stat_title_color_summary">Цвет для текста \'FPS\', \'Temp\', \'CPU\' и т.д.</string>
+    <string name="stat_value_color">Цвет значения статистики</string>
+    <string name="stat_value_color_summary">Цвет для числовой статистики (напр. \'29\', \'32.0°C\')</string>
+    <string name="overlay_font_style">Стиль шрифта наложения</string>
+    <string name="overlay_font_style_summary">Выбрать пользовательский шрифт для текста наложения</string>
+    <string name="overlay_position">Позиция наложения</string>
+    <string name="overlay_position_summary">Выбрать позицию наложения на экране</string>
+    <string name="overlay_format">Формат наложения</string>
+    <string name="overlay_format_summary">Выбрать между полным или минимальным отображением</string>
+
+    <!-- Preferences - Split Config -->
+    <string name="category_split_config">Конфигурация разделения</string>
+    <string name="split_mode">Режим разделения</string>
+    <string name="split_mode_summary">Выбрать расположение бок о бок или с наложением</string>
+
+    <!-- Preferences - Gesture Controls -->
+    <string name="category_gesture_controls">Управление жестами наложения</string>
+    <string name="enable_single_tap_toggle">Включить одиночное нажатие для переключения</string>
+    <string name="enable_single_tap_toggle_summary">Нажмите один раз для переключения между полным и минимальным форматами наложения</string>
+    <string name="single_tap_function">Функция одиночного нажатия</string>
+    <string name="single_tap_function_summary">Выбрать действие при одиночном нажатии</string>
+    <string name="enable_double_tap_capture">Включить двойное нажатие для захвата</string>
+    <string name="enable_double_tap_capture_summary">Дважды нажмите на наложение для запуска/остановки захвата журналов</string>
+    <string name="double_tap_function">Функция двойного нажатия</string>
+    <string name="double_tap_function_summary">Выбрать действие при двойном нажатии</string>
+    <string name="enable_long_press">Включить длительное нажатие</string>
+    <string name="enable_long_press_summary">Длительно нажмите на наложение для доступа к настройкам GameBar</string>
+    <string name="long_press_function">Функция длительного нажатия</string>
+    <string name="long_press_function_summary">Выбрать действие при длительном нажатии</string>
+    <string name="long_press_duration">Длительность длительного нажатия</string>
+    <string name="long_press_duration_summary">Установить требуемую длительность для длительного нажатия на наложение</string>
+
+    <!-- Preferences - Per-App -->
+    <string name="category_per_app">GameBar для каждого приложения</string>
+    <string name="auto_enable_gamebar">Автоматически включать GameBar для выбранных приложений</string>
+    <string name="auto_enable_gamebar_summary">Если включено, выбранные приложения будут автоматически включать GameBar, даже если главный переключатель выключен</string>
+    <string name="configure_apps">Настроить приложения</string>
+    <string name="configure_apps_summary">Выбрать, какие приложения будут автоматически включать GameBar</string>
+
+    <!-- Menu Items -->
+    <string name="menu_log_monitor">Монитор журналов</string>
+    <string name="menu_open_external_log">Открыть внешний журнал</string>
+    <string name="menu_open">Открыть</string>
+    <string name="menu_share">Поделиться</string>
+    <string name="menu_export">Экспорт</string>
+    <string name="menu_delete">Удалить</string>
+    <string name="menu_logging_parameters">Параметры журналирования</string>
+
+    <!-- Layout Strings -->
+    <string name="tab_global">Глобальный</string>
+    <string name="tab_per_app">Для каждого приложения</string>
+    <string name="btn_manual_logs">Ручные журналы</string>
+    <string name="btn_start_capture">Начать захват</string>
+    <string name="btn_stop_capture">Остановить захват</string>
+    <string name="btn_capturing">Захват...</string>
+    <string name="btn_per_app_logging_active">Журналирование по приложениям активно</string>
+    <string name="btn_enable_per_app_logging">Включить журналирование по приложениям</string>
+    <string name="btn_no_apps_enabled">Нет активных приложений</string>
+    <string name="no_logs_available">Нет доступных журналов</string>
+    <string name="no_logs_hint">Включите журналирование для каждого приложения и используйте приложение для создания журналов</string>
+    <string name="font_name_placeholder">Название шрифта</string>
+    <!-- Analytics Dialog -->
+    <string name="session_information">Информация о сеансе</string>
+    <string name="fps_statistics">СТАТИСТИКА FPS</string>
+    <string name="max_fps_label">Макс FPS:      0.0</string>
+    <string name="min_fps_label">Мин FPS:      0.0</string>
+    <string name="avg_fps_label">Сред FPS:      0.0</string>
+    <string name="variance_label">Дисперсия:     0.00</string>
+    <string name="std_dev_label">Станд откл:      0.00</string>
+    <string name="smoothness_label">Плавность:   0.0%%</string>
+    <string name="one_percent_low_label">1%% низкий:       0.0 FPS</string>
+    <string name="zero_one_percent_low_label">0.1%% низкий:     0.0 FPS</string>
+    <string name="cpu_statistics">СТАТИСТИКА ЦП</string>
+    <string name="cpu_summary">СВОДКА ЦП</string>
+    <string name="max_cpu_usage_label">Макс использ:    0%%</string>
+    <string name="min_cpu_usage_label">Мин использ:    0%%</string>
+    <string name="avg_cpu_usage_label">Сред использ:    0%%</string>
+    <string name="max_cpu_temp_label">Макс темп:     0.0°C</string>
+    <string name="min_cpu_temp_label">Мин темп:     0.0°C</string>
+    <string name="avg_cpu_temp_label">Сред темп:     0.0°C</string>
+    <string name="gpu_statistics">СТАТИСТИКА ГП</string>
+    <string name="gpu_summary">СВОДКА ГП</string>
+    <string name="max_gpu_usage_label">Макс использ:    0%%</string>
+    <string name="min_gpu_usage_label">Мин использ:    0%%</string>
+    <string name="avg_gpu_usage_label">Сред использ:    0%%</string>
+    <string name="max_gpu_temp_label">Макс темп:     0.0°C</string>
+    <string name="min_gpu_temp_label">Мин темп:     0.0°C</string>
+    <string name="avg_gpu_temp_label">Сред темп:     0.0°C</string>
+    <string name="max_gpu_clock_label">Макс частота:    0 МГц</string>
+    <string name="min_gpu_clock_label">Мин частота:    0 МГц</string>
+    <string name="avg_gpu_clock_label">Сред частота:    0 МГц</string>
+
+    <!-- Source Code Messages -->
+    <string name="unknown_app">Неизвестное приложение</string>
+    <string name="logs_for_app">Журналы для %s</string>
+    <string name="no_logs_for_app">Нет доступных журналов для %s</string>
+    <string name="log_analytics">Аналитика журналов</string>
+    <string name="analyzing_log">Анализ журнала…</string>
+    <string name="analyzing_log_message">Пожалуйста, подождите, пока мы анализируем данные сеанса.</string>
+    <string name="failed_to_analyze_log">Не удалось проанализировать файл журнала</string>
+    <string name="error_loading_logs">Ошибка загрузки журналов: %s</string>
+    <string name="saved_to_path">Сохранено: %s</string>
+    <string name="failed_to_save">Не удалось сохранить: %s</string>
+    <string name="graphics_ready_to_share">Графика готова к публикации!</string>
+    <string name="failed_to_share">Не удалось поделиться: %s</string>
+    <string name="error_message">Ошибка: %s</string>
+    <string name="unable_to_open_guide">Не удается открыть руководство пользователя: %s</string>
+    <string name="file_picker_unavailable">Выбор файлов недоступен: %s</string>
+    <string name="error_opening_file">Ошибка открытия файла: %s</string>
+    <string name="external_log">Внешний журнал</string>
+
+    <!-- Additional Toast Messages -->
+    <string name="error_initializing_log_monitor">Ошибка инициализации монитора журналов: %s</string>
+    <string name="per_app_logging_enabled_message">Журналирование для каждого приложения включено - журналы будут запускаться автоматически при активации включенных приложений</string>
+    <string name="stopped_logging_exported">Журналирование остановлено и данные экспортированы</string>
+    <string name="stopped_per_app_logging">Журналирование для каждого приложения остановлено</string>
+    <string name="no_manual_logs_found">Ручные журналы не найдены</string>
+    <string name="file_location">Расположение файла: %s</string>
+    <string name="file_saved_at">Сохранено в: %s</string>
+    <string name="log_file_deleted">Файл журнала удален</string>
+    <string name="failed_to_delete_log">Не удалось удалить файл журнала</string>
+    <string name="error_deleting_file">Ошибка удаления файла: %s</string>
+    <string name="error_loading_apps">Ошибка загрузки приложений: %s</string>
+    <string name="gamebar_logging_enabled_overlay_off">%s: Журналирование GameBar включено, но наложение GameBar ВЫКЛЮЧЕНО. Включите GameBar для сбора журналов.</string>
+    <string name="gamebar_logging_enabled_overlay_off_generic">Журналирование GameBar включено, но наложение GameBar ВЫКЛЮЧЕНО. Включите GameBar для сбора журналов.</string>
+    <string name="app_gamebar_log_started">Журнал GameBar %s запущен</string>
+    <string name="package_gamebar_log_started">Журнал GameBar %s запущен</string>
+    <string name="app_gamebar_log_ended">Журнал GameBar %s завершен</string>
+    <string name="package_gamebar_log_ended">Журнал GameBar %s завершен</string>
+    <string name="cannot_start_logging_overlay_off">Невозможно запустить журналирование - наложение GameBar ВЫКЛЮЧЕНО</string>
+    <string name="manual_logging_started">%s: Ручное журналирование запущено</string>
+    <string name="manual_logging_started_package">Ручное журналирование запущено для %s</string>
+    <string name="auto_logging_enabled_message">В этом приложении включено автоматическое журналирование. Журналы сохраняются автоматически.</string>
+    <string name="manual_logging_stopped_saved">Ручное журналирование остановлено и сохранено</string>
+    <string name="capture_stopped_exported">Захват остановлен и данные экспортированы</string>
+    <string name="capture_started">Захват запущен</string>
+    <string name="overlay_format_changed">Формат наложения: %s</string>
+    <string name="failed_to_load_analytics">Не удалось загрузить данные аналитики</string>
+    <string name="screenshot_taken">Снимок экрана сделан</string>
+    <string name="failed_to_take_screenshot">Не удалось сделать снимок экрана</string>
+    <string name="screen_recorder_not_available">Запись экрана недоступна</string>
+    <string name="screen_recording_started">Запись экрана начата</string>
+    <string name="screen_recording_stopped">Запись экрана остановлена</string>
+    <string name="failed_to_toggle_screen_recording">Не удалось переключить запись экрана</string>
+
+    <!-- Dialog Titles and Messages -->
+    <string name="dialog_session_analytics">Аналитика сеанса</string>
+    <string name="dialog_manual_logs">Ручные журналы</string>
+    <string name="dialog_delete_log_title">Удалить файл журнала</string>
+    <string name="dialog_delete_log_message">Вы уверены, что хотите удалить этот файл журнала?\n\n%s</string>
+    <string name="dialog_logging_parameters_title">Параметры журналирования</string>
+    <string name="dialog_logging_parameters_message">Выберите параметры для включения в журналы:</string>
+    <string name="button_actions">Действия</string>
+    <string name="button_close">Закрыть</string>
+    <string name="button_delete">Удалить</string>
+    <string name="button_cancel">Отмена</string>
+    <string name="button_apply">Применить</string>
+    <string name="button_reset">Сбросить</string>
+    <!-- Hints and Content Descriptions -->
+    <string name="hint_search_logs">Поиск журналов...</string>
+    <string name="hint_search_app_logs">Поиск журналов %s...</string>
+    <string name="hint_search_apps">Поиск приложений...</string>
+    <string name="hint_search_fonts">Поиск шрифтов...</string>
+    <string name="content_desc_expand_collapse">Развернуть/Свернуть</string>
+
+</resources>

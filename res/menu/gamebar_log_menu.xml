@@ -6,6 +6,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/menu_logging_parameters"
-        android:title="Logging Parameters"
+        android:title="@string/menu_logging_parameters"
         android:showAsAction="never" />
 </menu>

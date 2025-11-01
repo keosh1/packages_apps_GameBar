@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2025 kenway214
+     SPDX-FileCopyrightText: 2025 keosh1
+     SPDX-License-Identifier: Apache-2.0
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- GameBar -->
+    <string name="tile_add">टाइल जोड़ें</string>
+    <string name="tile_added">टाइल जोड़ा गया</string>
+    <string name="tile_not_added">टाइल नहीं जोड़ा गया</string>
+    <string name="tile_already_added">टाइल पहले से जोड़ा गया है</string>
+    <string name="tile_on">चालू</string>
+    <string name="tile_off">बंद</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">मान: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">डिफ़ॉल्ट द्वारा</string>
+    <string name="custom_seekbar_default_value_to_set">डिफ़ॉल्ट मान: <xliff:g id="v">%s</xliff:g>\nसेट करने के लिए लंबे समय तक दबाएं</string>
+    <string name="custom_seekbar_default_value_is_set">डिफ़ॉल्ट मान सेट है</string>
+
+    <!-- GameBar Overlay -->
+    <string name="game_bar_summary">सिस्टम ओवरले सक्षम करें (FPS, Temp, आदि)</string>
+    <string name="overlay_permission_required">ओवरले अनुमति आवश्यक है</string>
+    <string name="overlay_permission_granted">ओवरले अनुमति दी गई</string>
+    <string name="overlay_permission_denied">ओवरले अनुमति अस्वीकार</string>
+    <string name="game_bar_tile_description">गेम ओवरले टॉगल करें</string>
+    <string name="game_bar_user_guide">उपयोगकर्ता गाइड</string>
+
+    <!-- ColorPicker -->
+    <string name="gamebar_default_title">एक रंग चुनें</string>
+    <string name="gamebar_presets">प्रीसेट</string>
+    <string name="gamebar_custom">कस्टम</string>
+    <string name="gamebar_select">चुनें</string>
+    <string name="gamebar_transparency">पारदर्शिता</string>
+
+    <!-- Preferences - Main -->
+    <string name="enable_gamebar_overlay">GameBar ओवरले सक्षम करें</string>
+
+    <!-- Preferences - Overlay Features -->
+    <string name="category_overlay_features">ओवरले सुविधाएं</string>
+    <string name="fps_overlay">FPS ओवरले</string>
+    <string name="fps_overlay_summary">स्क्रीन पर वर्तमान FPS दिखाएं</string>
+    <string name="frame_time">फ्रेम समय</string>
+    <string name="frame_time_summary">मिलीसेकंड में फ्रेम समय दिखाएं</string>
+    <string name="device_temperature">डिवाइस तापमान</string>
+    <string name="device_temperature_summary">डिवाइस तापमान दिखाएं</string>
+    <string name="cpu_usage">CPU उपयोग</string>
+    <string name="cpu_usage_summary">वर्तमान CPU उपयोग प्रतिशत दिखाएं</string>
+    <string name="cpu_clock_speeds">CPU क्लॉक गति</string>
+    <string name="cpu_clock_speeds_summary">प्रत्येक कोर के लिए वर्तमान CPU क्लॉक गति दिखाएं</string>
+    <string name="cpu_temperature">CPU तापमान</string>
+    <string name="cpu_temperature_summary">CPU तापमान दिखाएं</string>
+    <string name="ram_usage">RAM उपयोग</string>
+    <string name="ram_usage_summary">MB में वर्तमान RAM उपयोग दिखाएं</string>
+    <string name="ram_frequency">RAM आवृत्ति</string>
+    <string name="ram_frequency_summary">GHz में वर्तमान RAM आवृत्ति (बस) दिखाएं</string>
+    <string name="ram_temperature">RAM तापमान</string>
+    <string name="ram_temperature_summary">वर्तमान RAM तापमान दिखाएं</string>
+    <string name="gpu_usage">GPU उपयोग</string>
+    <string name="gpu_usage_summary">GPU उपयोग प्रतिशत दिखाएं</string>
+    <string name="gpu_clock_speed">GPU क्लॉक गति</string>
+    <string name="gpu_clock_speed_summary">वर्तमान GPU क्लॉक आवृत्ति दिखाएं</string>
+    <string name="gpu_temperature">GPU तापमान</string>
+    <string name="gpu_temperature_summary">वर्तमान GPU तापमान दिखाएं</string>
+
+    <!-- Preferences - FPS Method -->
+    <string name="category_fps_method">FPS माप विधि</string>
+    <string name="fps_display_mode">FPS प्रदर्शन मोड</string>
+    <string name="fps_display_mode_summary">दिखाने के लिए FPS सांख्यिकी चुनें</string>
+    <string name="select_fps_method">FPS विधि चुनें</string>
+    <string name="select_fps_method_summary">नई API विधि (डिफ़ॉल्ट) और लीगेसी Sysfs के बीच चुनें</string>
+
+    <!-- Preferences - Customization -->
+    <string name="category_customization">अनुकूलन</string>
+    <string name="text_size">टेक्स्ट आकार</string>
+    <string name="text_size_summary">ओवरले टेक्स्ट का आकार समायोजित करें</string>
+    <string name="background_transparency">पृष्ठभूमि पारदर्शिता</string>
+    <string name="background_transparency_summary">पृष्ठभूमि की पारदर्शिता समायोजित करें</string>
+    <string name="overlay_background_color">ओवरले पृष्ठभूमि रंग</string>
+    <string name="overlay_background_color_summary">ओवरले पृष्ठभूमि के लिए रंग</string>
+    <string name="overlay_corner_radius">ओवरले कोना त्रिज्या</string>
+    <string name="overlay_corner_radius_summary">ओवरले कोनों को कितना गोल होना चाहिए समायोजित करें</string>
+    <string name="overlay_padding">ओवरले पैडिंग</string>
+    <string name="overlay_padding_summary">आंकड़ों के आसपास की जगह समायोजित करें</string>
+    <string name="item_spacing">आइटम स्पेसिंग</string>
+    <string name="item_spacing_summary">ओवरले लाइनों के बीच स्पेसिंग समायोजित करें</string>
+    <string name="update_interval">अपडेट अंतराल</string>
+    <string name="update_interval_summary">ओवरले मान कितनी बार अपडेट होते हैं सेट करें</string>
+    <string name="stat_title_color">स्टेट शीर्षक रंग</string>
+    <string name="stat_title_color_summary">\'FPS\', \'Temp\', \'CPU\', आदि टेक्स्ट के लिए रंग</string>
+    <string name="stat_value_color">स्टेट मान रंग</string>
+    <string name="stat_value_color_summary">संख्यात्मक आंकड़ों के लिए रंग (जैसे \'29\', \'32.0°C\')</string>
+    <string name="overlay_font_style">ओवरले फ़ॉन्ट शैली</string>
+    <string name="overlay_font_style_summary">ओवरले टेक्स्ट के लिए कस्टम फ़ॉन्ट चुनें</string>
+    <string name="overlay_position">ओवरले स्थिति</string>
+    <string name="overlay_position_summary">स्क्रीन पर ओवरले की स्थिति चुनें</string>
+    <string name="overlay_format">ओवरले प्रारूप</string>
+    <string name="overlay_format_summary">पूर्ण या न्यूनतम प्रदर्शन के बीच चुनें</string>
+
+    <!-- Preferences - Split Config -->
+    <string name="category_split_config">विभाजन कॉन्फ़िगरेशन</string>
+    <string name="split_mode">विभाजन मोड</string>
+    <string name="split_mode_summary">साइड-बाय-साइड या स्टैक्ड व्यवस्था चुनें</string>
+
+    <!-- Preferences - Gesture Controls -->
+    <string name="category_gesture_controls">ओवरले जेस्चर नियंत्रण</string>
+    <string name="enable_single_tap_toggle">टॉगल करने के लिए सिंगल टैप सक्षम करें</string>
+    <string name="enable_single_tap_toggle_summary">पूर्ण और न्यूनतम ओवरले प्रारूपों के बीच स्विच करने के लिए एक बार टैप करें</string>
+    <string name="single_tap_function">सिंगल टैप फ़ंक्शन</string>
+    <string name="single_tap_function_summary">एक बार टैप करने पर क्या होना चाहिए चुनें</string>
+    <string name="enable_double_tap_capture">कैप्चर करने के लिए डबल टैप सक्षम करें</string>
+    <string name="enable_double_tap_capture_summary">लॉग कैप्चर शुरू/रोकने के लिए ओवरले पर डबल-टैप करें</string>
+    <string name="double_tap_function">डबल टैप फ़ंक्शन</string>
+    <string name="double_tap_function_summary">दो बार टैप करने पर क्या होना चाहिए चुनें</string>
+    <string name="enable_long_press">लंबा प्रेस सक्षम करें</string>
+    <string name="enable_long_press_summary">GameBar सेटिंग्स तक पहुंचने के लिए ओवरले पर लंबा दबाएं</string>
+    <string name="long_press_function">लंबा प्रेस फ़ंक्शन</string>
+    <string name="long_press_function_summary">लंबे समय तक दबाने पर क्या होना चाहिए चुनें</string>
+    <string name="long_press_duration">लंबा प्रेस अवधि</string>
+    <string name="long_press_duration_summary">ओवरले को लंबे समय तक दबाने के लिए आवश्यक अवधि सेट करें</string>
+
+    <!-- Preferences - Per-App -->
+    <string name="category_per_app">प्रति-ऐप GameBar</string>
+    <string name="auto_enable_gamebar">चयनित ऐप्स के लिए GameBar स्वतः सक्षम करें</string>
+    <string name="auto_enable_gamebar_summary">यदि चालू है, तो चयनित ऐप्स GameBar को स्वचालित रूप से सक्षम करेंगे भले ही मुख्य स्विच बंद हो</string>
+    <string name="configure_apps">ऐप्स कॉन्फ़िगर करें</string>
+    <string name="configure_apps_summary">चुनें कि कौन से ऐप्स GameBar को स्वचालित रूप से सक्षम करेंगे</string>
+
+    <!-- Menu Items -->
+    <string name="menu_log_monitor">लॉग मॉनिटर</string>
+    <string name="menu_open_external_log">बाहरी लॉग खोलें</string>
+    <string name="menu_open">खोलें</string>
+    <string name="menu_share">साझा करें</string>
+    <string name="menu_export">निर्यात करें</string>
+    <string name="menu_delete">हटाएं</string>
+    <string name="menu_logging_parameters">लॉगिंग पैरामीटर</string>
+
+    <!-- Layout Strings -->
+    <string name="tab_global">वैश्विक</string>
+    <string name="tab_per_app">प्रति ऐप</string>
+    <string name="btn_manual_logs">मैनुअल लॉग</string>
+    <string name="btn_start_capture">कैप्चर शुरू करें</string>
+    <string name="btn_stop_capture">कैप्चर रोकें</string>
+    <string name="btn_capturing">कैप्चर हो रहा है...</string>
+    <string name="btn_per_app_logging_active">प्रति-ऐप लॉगिंग सक्रिय</string>
+    <string name="btn_enable_per_app_logging">प्रति-ऐप लॉगिंग सक्षम करें</string>
+    <string name="btn_no_apps_enabled">कोई ऐप्स सक्षम नहीं</string>
+    <string name="no_logs_available">कोई लॉग उपलब्ध नहीं</string>
+    <string name="no_logs_hint">प्रति-ऐप लॉगिंग सक्षम करें और लॉग उत्पन्न करने के लिए ऐप का उपयोग करें</string>
+    <string name="font_name_placeholder">फ़ॉन्ट नाम</string>
+    <!-- Analytics Dialog -->
+    <string name="session_information">सत्र जानकारी</string>
+    <string name="fps_statistics">FPS आंकड़े</string>
+    <string name="max_fps_label">अधिकतम FPS:      0.0</string>
+    <string name="min_fps_label">न्यूनतम FPS:      0.0</string>
+    <string name="avg_fps_label">औसत FPS:      0.0</string>
+    <string name="variance_label">विचरण:     0.00</string>
+    <string name="std_dev_label">मानक विचलन:      0.00</string>
+    <string name="smoothness_label">सुगमता:   0.0%%</string>
+    <string name="one_percent_low_label">1%% निम्न:       0.0 FPS</string>
+    <string name="zero_one_percent_low_label">0.1%% निम्न:     0.0 FPS</string>
+    <string name="cpu_statistics">CPU आंकड़े</string>
+    <string name="cpu_summary">CPU सारांश</string>
+    <string name="max_cpu_usage_label">अधिकतम उपयोग:    0%%</string>
+    <string name="min_cpu_usage_label">न्यूनतम उपयोग:    0%%</string>
+    <string name="avg_cpu_usage_label">औसत उपयोग:    0%%</string>
+    <string name="max_cpu_temp_label">अधिकतम तापमान:     0.0°C</string>
+    <string name="min_cpu_temp_label">न्यूनतम तापमान:     0.0°C</string>
+    <string name="avg_cpu_temp_label">औसत तापमान:     0.0°C</string>
+    <string name="gpu_statistics">GPU आंकड़े</string>
+    <string name="gpu_summary">GPU सारांश</string>
+    <string name="max_gpu_usage_label">अधिकतम उपयोग:    0%%</string>
+    <string name="min_gpu_usage_label">न्यूनतम उपयोग:    0%%</string>
+    <string name="avg_gpu_usage_label">औसत उपयोग:    0%%</string>
+    <string name="max_gpu_temp_label">अधिकतम तापमान:     0.0°C</string>
+    <string name="min_gpu_temp_label">न्यूनतम तापमान:     0.0°C</string>
+    <string name="avg_gpu_temp_label">औसत तापमान:     0.0°C</string>
+    <string name="max_gpu_clock_label">अधिकतम क्लॉक:    0 MHz</string>
+    <string name="min_gpu_clock_label">न्यूनतम क्लॉक:    0 MHz</string>
+    <string name="avg_gpu_clock_label">औसत क्लॉक:    0 MHz</string>
+
+    <!-- Source Code Messages -->
+    <string name="unknown_app">अज्ञात ऐप</string>
+    <string name="logs_for_app">%s के लिए लॉग</string>
+    <string name="no_logs_for_app">%s के लिए कोई लॉग उपलब्ध नहीं</string>
+    <string name="log_analytics">लॉग विश्लेषण</string>
+    <string name="analyzing_log">लॉग का विश्लेषण कर रहे हैं…</string>
+    <string name="analyzing_log_message">कृपया प्रतीक्षा करें जब हम सत्र डेटा का विश्लेषण करते हैं।</string>
+    <string name="failed_to_analyze_log">लॉग फ़ाइल का विश्लेषण करने में विफल</string>
+    <string name="error_loading_logs">लॉग लोड करने में त्रुटि: %s</string>
+    <string name="saved_to_path">सहेजा गया: %s</string>
+    <string name="failed_to_save">सहेजने में विफल: %s</string>
+    <string name="graphics_ready_to_share">ग्राफ़िक्स साझा करने के लिए तैयार!</string>
+    <string name="failed_to_share">साझा करने में विफल: %s</string>
+    <string name="error_message">त्रुटि: %s</string>
+    <string name="unable_to_open_guide">उपयोगकर्ता गाइड खोलने में असमर्थ: %s</string>
+    <string name="file_picker_unavailable">फ़ाइल पिकर उपलब्ध नहीं: %s</string>
+    <string name="error_opening_file">फ़ाइल खोलने में त्रुटि: %s</string>
+    <string name="external_log">बाहरी लॉग</string>
+
+    <!-- Additional Toast Messages -->
+    <string name="error_initializing_log_monitor">लॉग मॉनिटर प्रारंभ करने में त्रुटि: %s</string>
+    <string name="per_app_logging_enabled_message">प्रति-ऐप लॉगिंग सक्षम - जब सक्षम ऐप्स सक्रिय होते हैं तो लॉग स्वचालित रूप से शुरू होंगे</string>
+    <string name="stopped_logging_exported">लॉगिंग रोकी गई और डेटा निर्यात किया गया</string>
+    <string name="stopped_per_app_logging">प्रति-ऐप लॉगिंग रोकी गई</string>
+    <string name="no_manual_logs_found">कोई मैनुअल लॉग नहीं मिला</string>
+    <string name="file_location">फ़ाइल स्थान: %s</string>
+    <string name="file_saved_at">यहां सहेजा गया: %s</string>
+    <string name="log_file_deleted">लॉग फ़ाइल हटाई गई</string>
+    <string name="failed_to_delete_log">लॉग फ़ाइल हटाने में विफल</string>
+    <string name="error_deleting_file">फ़ाइल हटाने में त्रुटि: %s</string>
+    <string name="error_loading_apps">ऐप्स लोड करने में त्रुटि: %s</string>
+    <string name="gamebar_logging_enabled_overlay_off">%s: GameBar लॉगिंग सक्षम है लेकिन GameBar ओवरले बंद है। लॉग एकत्र करने के लिए GameBar चालू करें।</string>
+    <string name="gamebar_logging_enabled_overlay_off_generic">GameBar लॉगिंग सक्षम है लेकिन GameBar ओवरले बंद है। लॉग एकत्र करने के लिए GameBar चालू करें।</string>
+    <string name="app_gamebar_log_started">%s GameBar लॉग शुरू हुआ</string>
+    <string name="package_gamebar_log_started">%s GameBar लॉग शुरू हुआ</string>
+    <string name="app_gamebar_log_ended">%s GameBar लॉग समाप्त हुआ</string>
+    <string name="package_gamebar_log_ended">%s GameBar लॉग समाप्त हुआ</string>
+    <string name="cannot_start_logging_overlay_off">लॉगिंग शुरू नहीं कर सकते - GameBar ओवरले बंद है</string>
+    <string name="manual_logging_started">%s: मैनुअल लॉगिंग शुरू हुई</string>
+    <string name="manual_logging_started_package">%s के लिए मैनुअल लॉगिंग शुरू हुई</string>
+    <string name="auto_logging_enabled_message">इस ऐप में स्वचालित लॉगिंग सक्षम है। लॉग स्वचालित रूप से सहेजे जाते हैं।</string>
+    <string name="manual_logging_stopped_saved">मैनुअल लॉगिंग रोकी गई और सहेजी गई</string>
+    <string name="capture_stopped_exported">कैप्चर रोका गया और डेटा निर्यात किया गया</string>
+    <string name="capture_started">कैप्चर शुरू हुआ</string>
+    <string name="overlay_format_changed">ओवरले प्रारूप: %s</string>
+    <string name="failed_to_load_analytics">विश्लेषण डेटा लोड करने में विफल</string>
+    <string name="screenshot_taken">स्क्रीनशॉट लिया गया</string>
+    <string name="failed_to_take_screenshot">स्क्रीनशॉट लेने में विफल</string>
+    <string name="screen_recorder_not_available">स्क्रीन रिकॉर्डर उपलब्ध नहीं</string>
+    <string name="screen_recording_started">स्क्रीन रिकॉर्डिंग शुरू हुई</string>
+    <string name="screen_recording_stopped">स्क्रीन रिकॉर्डिंग रुक गई</string>
+    <string name="failed_to_toggle_screen_recording">स्क्रीन रिकॉर्डिंग टॉगल करने में विफल</string>
+
+    <!-- Dialog Titles and Messages -->
+    <string name="dialog_session_analytics">सत्र विश्लेषण</string>
+    <string name="dialog_manual_logs">मैनुअल लॉग</string>
+    <string name="dialog_delete_log_title">लॉग फ़ाइल हटाएं</string>
+    <string name="dialog_delete_log_message">क्या आप वाकई इस लॉग फ़ाइल को हटाना चाहते हैं?\n\n%s</string>
+    <string name="dialog_logging_parameters_title">लॉगिंग पैरामीटर</string>
+    <string name="dialog_logging_parameters_message">लॉग में शामिल करने के लिए पैरामीटर चुनें:</string>
+    <string name="button_actions">क्रियाएं</string>
+    <string name="button_close">बंद करें</string>
+    <string name="button_delete">हटाएं</string>
+    <string name="button_cancel">रद्द करें</string>
+    <string name="button_apply">लागू करें</string>
+    <string name="button_reset">रीसेट करें</string>
+    <!-- Hints and Content Descriptions -->
+    <string name="hint_search_logs">लॉग खोजें...</string>
+    <string name="hint_search_app_logs">%s लॉग खोजें...</string>
+    <string name="hint_search_apps">ऐप्स खोजें...</string>
+    <string name="hint_search_fonts">फ़ॉन्ट खोजें...</string>
+    <string name="content_desc_expand_collapse">विस्तृत करें/संक्षिप्त करें</string>
+
+</resources>

@@ -43,7 +43,7 @@ class PerAppLogViewFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         packageName = arguments?.getString(PerAppLogViewActivity.EXTRA_PACKAGE_NAME) ?: ""
-        appName = arguments?.getString(PerAppLogViewActivity.EXTRA_APP_NAME) ?: "Unknown App"
+        appName = arguments?.getString(PerAppLogViewActivity.EXTRA_APP_NAME) ?: getString(R.string.unknown_app)
     }
 
     override fun onCreateView(
@@ -63,7 +63,7 @@ class PerAppLogViewFragment : Fragment() {
             setupSearchBar()
             loadPerAppLogHistory()
         } catch (e: Exception) {
-            Toast.makeText(requireContext(), "Error loading logs: ${e.message}", Toast.LENGTH_LONG).show()
+            Toast.makeText(requireContext(), getString(R.string.error_loading_logs, e.message), Toast.LENGTH_LONG).show()
             e.printStackTrace()
         }
     }
@@ -86,7 +86,7 @@ class PerAppLogViewFragment : Fragment() {
     }
 
     private fun setupSearchBar() {
-        searchBar.hint = "Search $appName logs..."
+        searchBar.hint = getString(R.string.hint_search_app_logs, appName)
         searchBar.addTextChangedListener(object : android.text.TextWatcher {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
@@ -116,7 +116,7 @@ class PerAppLogViewFragment : Fragment() {
         if (logFiles.isEmpty()) {
             logHistoryRecyclerView.visibility = View.GONE
             emptyStateView.visibility = View.VISIBLE
-            emptyMessageView.text = "No logs available for $appName"
+            emptyMessageView.text = getString(R.string.no_logs_for_app, appName)
         } else {
             logHistoryRecyclerView.visibility = View.VISIBLE
             emptyStateView.visibility = View.GONE
@@ -181,8 +181,8 @@ class PerAppLogViewFragment : Fragment() {
     private fun showLogAnalyticsDialog(logFile: GameBarLogFragment.LogFile) {
         // Show loading message
         val loadingDialog = AlertDialog.Builder(requireContext())
-            .setTitle("Analyzing Log...")
-            .setMessage("Please wait while we analyze the session data.")
+            .setTitle(getString(R.string.analyzing_log))
+            .setMessage(getString(R.string.analyzing_log_message))
             .setCancelable(false)
             .create()
         loadingDialog.show()
@@ -199,7 +199,7 @@ class PerAppLogViewFragment : Fragment() {
                 if (analytics != null) {
                     showAnalyticsResult(logFile, analytics)
                 } else {
-                    Toast.makeText(requireContext(), "Failed to analyze log file", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(requireContext(), getString(R.string.failed_to_analyze_log), Toast.LENGTH_SHORT).show()
                 }
             }
         }.start()
@@ -315,12 +315,12 @@ class PerAppLogViewFragment : Fragment() {
         
         // Create and show dialog with menu
         val dialog = AlertDialog.Builder(requireContext())
-            .setTitle("📊 Session Analytics")
+            .setTitle(getString(R.string.dialog_session_analytics))
             .setView(dialogView)
-            .setPositiveButton("⋮ Actions") { _, _ ->
+            .setPositiveButton(getString(R.string.button_actions)) { _, _ ->
                 // Will be overridden
             }
-            .setNegativeButton("Close", null)
+            .setNegativeButton(getString(R.string.button_close), null)
             .create()
         
         dialog.show()
@@ -394,14 +394,14 @@ class PerAppLogViewFragment : Fragment() {
                     fos.flush()
                     fos.close()
                     
-                    Toast.makeText(requireContext(), "Saved: ${file.absolutePath}", Toast.LENGTH_LONG).show()
+                    Toast.makeText(requireContext(), getString(R.string.saved_to_path, file.absolutePath), Toast.LENGTH_LONG).show()
                 } catch (e: Exception) {
-                    Toast.makeText(requireContext(), "Failed to save: ${e.message}", Toast.LENGTH_LONG).show()
+                    Toast.makeText(requireContext(), getString(R.string.failed_to_save, e.message), Toast.LENGTH_LONG).show()
                     e.printStackTrace()
                 }
             }
         } catch (e: Exception) {
-            Toast.makeText(requireContext(), "Error: ${e.message}", Toast.LENGTH_LONG).show()
+            Toast.makeText(requireContext(), getString(R.string.error_message, e.message), Toast.LENGTH_LONG).show()
             e.printStackTrace()
         }
     }
@@ -453,14 +453,14 @@ class PerAppLogViewFragment : Fragment() {
                     val chooser = Intent.createChooser(intent, "Share Graphics")
                     startActivity(chooser)
                     
-                    Toast.makeText(requireContext(), "Graphics ready to share!", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(requireContext(), getString(R.string.graphics_ready_to_share), Toast.LENGTH_SHORT).show()
                 } catch (e: Exception) {
-                    Toast.makeText(requireContext(), "Failed to share: ${e.message}", Toast.LENGTH_LONG).show()
+                    Toast.makeText(requireContext(), getString(R.string.failed_to_share, e.message), Toast.LENGTH_LONG).show()
                     e.printStackTrace()
                 }
             }
         } catch (e: Exception) {
-            Toast.makeText(requireContext(), "Error: ${e.message}", Toast.LENGTH_LONG).show()
+            Toast.makeText(requireContext(), getString(R.string.error_message, e.message), Toast.LENGTH_LONG).show()
             e.printStackTrace()
         }
     }
@@ -521,32 +521,32 @@ class PerAppLogViewFragment : Fragment() {
             val chooser = Intent.createChooser(intent, "Share log file")
             startActivity(chooser)
         } catch (e: Exception) {
-            Toast.makeText(requireContext(), "File location: ${logFile.path}", Toast.LENGTH_LONG).show()
+            Toast.makeText(requireContext(), getString(R.string.file_location, logFile.path), Toast.LENGTH_LONG).show()
         }
     }
 
     private fun exportLogFile(logFile: GameBarLogFragment.LogFile) {
-        Toast.makeText(requireContext(), "File saved at: ${logFile.path}", Toast.LENGTH_LONG).show()
+        Toast.makeText(requireContext(), getString(R.string.file_saved_at, logFile.path), Toast.LENGTH_LONG).show()
     }
 
     private fun deleteLogFile(logFile: GameBarLogFragment.LogFile) {
         AlertDialog.Builder(requireContext())
-            .setTitle("Delete Log File")
-            .setMessage("Are you sure you want to delete this log file?\\n\\n${logFile.name}")
-            .setPositiveButton("Delete") { _, _ ->
+            .setTitle(getString(R.string.dialog_delete_log_title))
+            .setMessage(getString(R.string.dialog_delete_log_message, logFile.name))
+            .setPositiveButton(getString(R.string.button_delete)) { _, _ ->
                 try {
                     val file = File(logFile.path)
                     if (file.delete()) {
-                        Toast.makeText(requireContext(), "Log file deleted", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(requireContext(), getString(R.string.log_file_deleted), Toast.LENGTH_SHORT).show()
                         loadPerAppLogHistory() // Refresh the list
                     } else {
-                        Toast.makeText(requireContext(), "Failed to delete log file", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(requireContext(), getString(R.string.failed_to_delete_log), Toast.LENGTH_SHORT).show()
                     }
                 } catch (e: Exception) {
-                    Toast.makeText(requireContext(), "Error deleting file: ${e.message}", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(requireContext(), getString(R.string.error_deleting_file, e.message), Toast.LENGTH_SHORT).show()
                 }
             }
-            .setNegativeButton("Cancel", null)
+            .setNegativeButton(getString(R.string.button_cancel), null)
             .show()
     }
 

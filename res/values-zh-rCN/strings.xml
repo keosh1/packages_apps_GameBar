@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2025 kenway214
+     SPDX-FileCopyrightText: 2025 keosh1
+     SPDX-License-Identifier: Apache-2.0
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- GameBar -->
+    <string name="tile_add">添加磁贴</string>
+    <string name="tile_added">磁贴已添加</string>
+    <string name="tile_not_added">磁贴未添加</string>
+    <string name="tile_already_added">磁贴已存在</string>
+    <string name="tile_on">开启</string>
+    <string name="tile_off">关闭</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">数值：<xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">默认</string>
+    <string name="custom_seekbar_default_value_to_set">默认值：<xliff:g id="v">%s</xliff:g>\n长按设置</string>
+    <string name="custom_seekbar_default_value_is_set">默认值已设置</string>
+
+    <!-- GameBar Overlay -->
+    <string name="game_bar_summary">启用系统覆盖层（FPS、温度等）</string>
+    <string name="overlay_permission_required">需要覆盖层权限</string>
+    <string name="overlay_permission_granted">覆盖层权限已授予</string>
+    <string name="overlay_permission_denied">覆盖层权限被拒绝</string>
+    <string name="game_bar_tile_description">切换游戏覆盖层</string>
+    <string name="game_bar_user_guide">用户指南</string>
+
+    <!-- ColorPicker -->
+    <string name="gamebar_default_title">选择颜色</string>
+    <string name="gamebar_presets">预设</string>
+    <string name="gamebar_custom">自定义</string>
+    <string name="gamebar_select">选择</string>
+    <string name="gamebar_transparency">透明度</string>
+
+    <!-- Preferences - Main -->
+    <string name="enable_gamebar_overlay">启用 GameBar 叠加层</string>
+
+    <!-- Preferences - Overlay Features -->
+    <string name="category_overlay_features">叠加层功能</string>
+    <string name="fps_overlay">FPS 叠加层</string>
+    <string name="fps_overlay_summary">在屏幕上显示当前 FPS</string>
+    <string name="frame_time">帧时间</string>
+    <string name="frame_time_summary">以毫秒为单位显示帧时间</string>
+    <string name="device_temperature">设备温度</string>
+    <string name="device_temperature_summary">显示设备温度</string>
+    <string name="cpu_usage">CPU 使用率</string>
+    <string name="cpu_usage_summary">显示当前 CPU 使用率百分比</string>
+    <string name="cpu_clock_speeds">CPU 时钟速度</string>
+    <string name="cpu_clock_speeds_summary">显示每个核心的当前 CPU 时钟速度</string>
+    <string name="cpu_temperature">CPU 温度</string>
+    <string name="cpu_temperature_summary">显示 CPU 温度</string>
+    <string name="ram_usage">RAM 使用量</string>
+    <string name="ram_usage_summary">以 MB 为单位显示当前 RAM 使用量</string>
+    <string name="ram_frequency">RAM 频率</string>
+    <string name="ram_frequency_summary">以 GHz 为单位显示当前 RAM 频率（总线）</string>
+    <string name="ram_temperature">RAM 温度</string>
+    <string name="ram_temperature_summary">显示当前 RAM 温度</string>
+    <string name="gpu_usage">GPU 使用率</string>
+    <string name="gpu_usage_summary">显示 GPU 使用率百分比</string>
+    <string name="gpu_clock_speed">GPU 时钟速度</string>
+    <string name="gpu_clock_speed_summary">显示当前 GPU 时钟频率</string>
+    <string name="gpu_temperature">GPU 温度</string>
+    <string name="gpu_temperature_summary">显示当前 GPU 温度</string>
+
+    <!-- Preferences - FPS Method -->
+    <string name="category_fps_method">FPS 测量方法</string>
+    <string name="fps_display_mode">FPS 显示模式</string>
+    <string name="fps_display_mode_summary">选择要显示的 FPS 统计信息</string>
+    <string name="select_fps_method">选择 FPS 方法</string>
+    <string name="select_fps_method_summary">在新 API 方法（默认）和旧版 Sysfs 之间选择</string>
+
+    <!-- Preferences - Customization -->
+    <string name="category_customization">自定义</string>
+    <string name="text_size">文本大小</string>
+    <string name="text_size_summary">调整叠加层文本的大小</string>
+    <string name="background_transparency">背景透明度</string>
+    <string name="background_transparency_summary">调整背景的透明度</string>
+    <string name="overlay_background_color">叠加层背景颜色</string>
+    <string name="overlay_background_color_summary">叠加层背景的颜色</string>
+    <string name="overlay_corner_radius">叠加层圆角半径</string>
+    <string name="overlay_corner_radius_summary">调整叠加层圆角的圆润程度</string>
+    <string name="overlay_padding">叠加层内边距</string>
+    <string name="overlay_padding_summary">调整统计数据周围的空间</string>
+    <string name="item_spacing">项目间距</string>
+    <string name="item_spacing_summary">调整叠加层行之间的间距</string>
+    <string name="update_interval">更新间隔</string>
+    <string name="update_interval_summary">设置叠加层值更新的频率</string>
+    <string name="stat_title_color">统计标题颜色</string>
+    <string name="stat_title_color_summary">\'FPS\'、\'Temp\'、\'CPU\' 等文本的颜色</string>
+    <string name="stat_value_color">统计值颜色</string>
+    <string name="stat_value_color_summary">数字统计的颜色（例如 \'29\'、\'32.0°C\'）</string>
+    <string name="overlay_font_style">叠加层字体样式</string>
+    <string name="overlay_font_style_summary">为叠加层文本选择自定义字体</string>
+    <string name="overlay_position">叠加层位置</string>
+    <string name="overlay_position_summary">选择叠加层在屏幕上的位置</string>
+    <string name="overlay_format">叠加层格式</string>
+    <string name="overlay_format_summary">在完整或最小显示之间选择</string>
+
+    <!-- Preferences - Split Config -->
+    <string name="category_split_config">分屏配置</string>
+    <string name="split_mode">分屏模式</string>
+    <string name="split_mode_summary">选择并排或堆叠排列</string>
+
+    <!-- Preferences - Gesture Controls -->
+    <string name="category_gesture_controls">叠加层手势控制</string>
+    <string name="enable_single_tap_toggle">启用单击切换</string>
+    <string name="enable_single_tap_toggle_summary">点击一次以在完整和最小叠加层格式之间切换</string>
+    <string name="single_tap_function">单击功能</string>
+    <string name="single_tap_function_summary">选择单击时执行的操作</string>
+    <string name="enable_double_tap_capture">启用双击捕获</string>
+    <string name="enable_double_tap_capture_summary">双击叠加层以开始/停止捕获日志</string>
+    <string name="double_tap_function">双击功能</string>
+    <string name="double_tap_function_summary">选择双击时执行的操作</string>
+    <string name="enable_long_press">启用长按</string>
+    <string name="enable_long_press_summary">长按叠加层以访问 GameBar 设置</string>
+    <string name="long_press_function">长按功能</string>
+    <string name="long_press_function_summary">选择长按时执行的操作</string>
+    <string name="long_press_duration">长按持续时间</string>
+    <string name="long_press_duration_summary">设置长按叠加层所需的持续时间</string>
+
+    <!-- Preferences - Per-App -->
+    <string name="category_per_app">每个应用的 GameBar</string>
+    <string name="auto_enable_gamebar">为选定的应用自动启用 GameBar</string>
+    <string name="auto_enable_gamebar_summary">如果打开，即使主开关关闭，选定的应用也会自动启用 GameBar</string>
+    <string name="configure_apps">配置应用</string>
+    <string name="configure_apps_summary">选择哪些应用将自动启用 GameBar</string>
+
+    <!-- Menu Items -->
+    <string name="menu_log_monitor">日志监视器</string>
+    <string name="menu_open_external_log">打开外部日志</string>
+    <string name="menu_open">打开</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_export">导出</string>
+    <string name="menu_delete">删除</string>
+    <string name="menu_logging_parameters">日志记录参数</string>
+
+    <!-- Layout Strings -->
+    <string name="tab_global">全局</string>
+    <string name="tab_per_app">每个应用</string>
+    <string name="btn_manual_logs">手动日志</string>
+    <string name="btn_start_capture">开始捕获</string>
+    <string name="btn_stop_capture">停止捕获</string>
+    <string name="btn_capturing">捕获中...</string>
+    <string name="btn_per_app_logging_active">按应用记录已激活</string>
+    <string name="btn_enable_per_app_logging">启用按应用记录</string>
+    <string name="btn_no_apps_enabled">未启用应用</string>
+    <string name="no_logs_available">没有可用的日志</string>
+    <string name="no_logs_hint">启用每个应用的日志记录并使用应用生成日志</string>
+    <string name="font_name_placeholder">字体名称</string>
+    <!-- Analytics Dialog -->
+    <string name="session_information">会话信息</string>
+    <string name="fps_statistics">FPS 统计</string>
+    <string name="max_fps_label">最大 FPS:      0.0</string>
+    <string name="min_fps_label">最小 FPS:      0.0</string>
+    <string name="avg_fps_label">平均 FPS:      0.0</string>
+    <string name="variance_label">方差:     0.00</string>
+    <string name="std_dev_label">标准差:      0.00</string>
+    <string name="smoothness_label">流畅度:   0.0%%</string>
+    <string name="one_percent_low_label">1%% 低:       0.0 FPS</string>
+    <string name="zero_one_percent_low_label">0.1%% 低:     0.0 FPS</string>
+    <string name="cpu_statistics">CPU 统计</string>
+    <string name="cpu_summary">CPU 摘要</string>
+    <string name="max_cpu_usage_label">最大使用率:    0%%</string>
+    <string name="min_cpu_usage_label">最小使用率:    0%%</string>
+    <string name="avg_cpu_usage_label">平均使用率:    0%%</string>
+    <string name="max_cpu_temp_label">最高温度:     0.0°C</string>
+    <string name="min_cpu_temp_label">最低温度:     0.0°C</string>
+    <string name="avg_cpu_temp_label">平均温度:     0.0°C</string>
+    <string name="gpu_statistics">GPU 统计</string>
+    <string name="gpu_summary">GPU 摘要</string>
+    <string name="max_gpu_usage_label">最大使用率:    0%%</string>
+    <string name="min_gpu_usage_label">最小使用率:    0%%</string>
+    <string name="avg_gpu_usage_label">平均使用率:    0%%</string>
+    <string name="max_gpu_temp_label">最高温度:     0.0°C</string>
+    <string name="min_gpu_temp_label">最低温度:     0.0°C</string>
+    <string name="avg_gpu_temp_label">平均温度:     0.0°C</string>
+    <string name="max_gpu_clock_label">最大时钟:    0 MHz</string>
+    <string name="min_gpu_clock_label">最小时钟:    0 MHz</string>
+    <string name="avg_gpu_clock_label">平均时钟:    0 MHz</string>
+
+    <!-- Source Code Messages -->
+    <string name="unknown_app">未知应用</string>
+    <string name="logs_for_app">%s 的日志</string>
+    <string name="no_logs_for_app">没有 %s 的可用日志</string>
+    <string name="log_analytics">日志分析</string>
+    <string name="analyzing_log">正在分析日志…</string>
+    <string name="analyzing_log_message">请稍候，我们正在分析会话数据。</string>
+    <string name="failed_to_analyze_log">无法分析日志文件</string>
+    <string name="error_loading_logs">加载日志时出错: %s</string>
+    <string name="saved_to_path">已保存: %s</string>
+    <string name="failed_to_save">保存失败: %s</string>
+    <string name="graphics_ready_to_share">图形已准备好分享！</string>
+    <string name="failed_to_share">分享失败: %s</string>
+    <string name="error_message">错误: %s</string>
+    <string name="unable_to_open_guide">无法打开用户指南: %s</string>
+    <string name="file_picker_unavailable">文件选择器不可用: %s</string>
+    <string name="error_opening_file">打开文件时出错: %s</string>
+    <string name="external_log">外部日志</string>
+
+    <!-- Additional Toast Messages -->
+    <string name="error_initializing_log_monitor">初始化日志监视器时出错: %s</string>
+    <string name="per_app_logging_enabled_message">已启用每个应用的日志记录 - 当启用的应用变为活动状态时，日志将自动开始</string>
+    <string name="stopped_logging_exported">已停止日志记录并导出数据</string>
+    <string name="stopped_per_app_logging">已停止每个应用的日志记录</string>
+    <string name="no_manual_logs_found">未找到手动日志</string>
+    <string name="file_location">文件位置: %s</string>
+    <string name="file_saved_at">保存位置: %s</string>
+    <string name="log_file_deleted">日志文件已删除</string>
+    <string name="failed_to_delete_log">删除日志文件失败</string>
+    <string name="error_deleting_file">删除文件时出错: %s</string>
+    <string name="error_loading_apps">加载应用时出错: %s</string>
+    <string name="gamebar_logging_enabled_overlay_off">%s: GameBar 日志记录已启用，但 GameBar 叠加层已关闭。请打开 GameBar 以收集日志。</string>
+    <string name="gamebar_logging_enabled_overlay_off_generic">GameBar 日志记录已启用，但 GameBar 叠加层已关闭。请打开 GameBar 以收集日志。</string>
+    <string name="app_gamebar_log_started">%s GameBar 日志已开始</string>
+    <string name="package_gamebar_log_started">%s GameBar 日志已开始</string>
+    <string name="app_gamebar_log_ended">%s GameBar 日志已结束</string>
+    <string name="package_gamebar_log_ended">%s GameBar 日志已结束</string>
+    <string name="cannot_start_logging_overlay_off">无法开始日志记录 - GameBar 叠加层已关闭</string>
+    <string name="manual_logging_started">%s: 手动日志记录已开始</string>
+    <string name="manual_logging_started_package">已为 %s 开始手动日志记录</string>
+    <string name="auto_logging_enabled_message">此应用已启用自动日志记录。日志会自动保存。</string>
+    <string name="manual_logging_stopped_saved">手动日志记录已停止并保存</string>
+    <string name="capture_stopped_exported">捕获已停止并导出数据</string>
+    <string name="capture_started">捕获已开始</string>
+    <string name="overlay_format_changed">叠加层格式: %s</string>
+    <string name="failed_to_load_analytics">加载分析数据失败</string>
+    <string name="screenshot_taken">已截屏</string>
+    <string name="failed_to_take_screenshot">截屏失败</string>
+    <string name="screen_recorder_not_available">屏幕录制器不可用</string>
+    <string name="screen_recording_started">屏幕录制已开始</string>
+    <string name="screen_recording_stopped">屏幕录制已停止</string>
+    <string name="failed_to_toggle_screen_recording">切换屏幕录制失败</string>
+
+    <!-- Dialog Titles and Messages -->
+    <string name="dialog_session_analytics">会话分析</string>
+    <string name="dialog_manual_logs">手动日志</string>
+    <string name="dialog_delete_log_title">删除日志文件</string>
+    <string name="dialog_delete_log_message">您确定要删除此日志文件吗？\n\n%s</string>
+    <string name="dialog_logging_parameters_title">日志记录参数</string>
+    <string name="dialog_logging_parameters_message">选择要包含在日志中的参数：</string>
+    <string name="button_actions">操作</string>
+    <string name="button_close">关闭</string>
+    <string name="button_delete">删除</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_apply">应用</string>
+    <string name="button_reset">重置</string>
+    <!-- Hints and Content Descriptions -->
+    <string name="hint_search_logs">搜索日志...</string>
+    <string name="hint_search_app_logs">搜索%s日志...</string>
+    <string name="hint_search_apps">搜索应用...</string>
+    <string name="hint_search_fonts">搜索字体...</string>
+    <string name="content_desc_expand_collapse">展开/折叠</string>
+
+</resources>

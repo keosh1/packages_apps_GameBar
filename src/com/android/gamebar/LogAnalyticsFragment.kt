@@ -29,7 +29,7 @@ class LogAnalyticsFragment : Fragment() {
         analytics = arguments?.getSerializable("ANALYTICS_DATA") as? LogAnalytics
         
         if (analytics == null) {
-            Toast.makeText(requireContext(), "Failed to load analytics data", Toast.LENGTH_SHORT).show()
+            Toast.makeText(requireContext(), getString(R.string.failed_to_load_analytics), Toast.LENGTH_SHORT).show()
             return inflater.inflate(R.layout.dialog_log_analytics, container, false)
         }
         

@@ -23,7 +23,7 @@
         android:src="@drawable/ic_chevron_right"
         android:tint="?android:attr/textColorSecondary"
         android:rotation="0"
-        android:contentDescription="Expand/Collapse" />
+        android:contentDescription="@string/content_desc_expand_collapse" />
 
     <TextView
         android:id="@android:id/title"

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2025 kenway214
+     SPDX-FileCopyrightText: 2025 keosh1
+     SPDX-License-Identifier: Apache-2.0
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- GameBar -->
+    <string name="tile_add">Kachel hinzufügen</string>
+    <string name="tile_added">Kachel hinzugefügt</string>
+    <string name="tile_not_added">Kachel nicht hinzugefügt</string>
+    <string name="tile_already_added">Kachel bereits hinzugefügt</string>
+    <string name="tile_on">Ein</string>
+    <string name="tile_off">Aus</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Wert: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">standardmäßig</string>
+    <string name="custom_seekbar_default_value_to_set">Standardwert: <xliff:g id="v">%s</xliff:g>\nLang drücken zum Einstellen</string>
+    <string name="custom_seekbar_default_value_is_set">Standardwert ist eingestellt</string>
+
+    <!-- GameBar Overlay -->
+    <string name="game_bar_summary">System-Overlay aktivieren (FPS, Temp, usw.)</string>
+    <string name="overlay_permission_required">Overlay-Berechtigung erforderlich</string>
+    <string name="overlay_permission_granted">Overlay-Berechtigung erteilt</string>
+    <string name="overlay_permission_denied">Overlay-Berechtigung verweigert</string>
+    <string name="game_bar_tile_description">Spiel-Overlay umschalten</string>
+    <string name="game_bar_user_guide">Benutzerhandbuch</string>
+
+    <!-- ColorPicker -->
+    <string name="gamebar_default_title">Farbe auswählen</string>
+    <string name="gamebar_presets">Voreinstellungen</string>
+    <string name="gamebar_custom">Benutzerdefiniert</string>
+    <string name="gamebar_select">Auswählen</string>
+    <string name="gamebar_transparency">Transparenz</string>
+
+    <!-- Preferences - Main -->
+    <string name="enable_gamebar_overlay">GameBar-Overlay aktivieren</string>
+
+    <!-- Preferences - Overlay Features -->
+    <string name="category_overlay_features">Overlay-Funktionen</string>
+    <string name="fps_overlay">FPS-Overlay</string>
+    <string name="fps_overlay_summary">Aktuelle FPS auf dem Bildschirm anzeigen</string>
+    <string name="frame_time">Frame-Zeit</string>
+    <string name="frame_time_summary">Frame-Zeit in Millisekunden anzeigen</string>
+    <string name="device_temperature">Gerätetemperatur</string>
+    <string name="device_temperature_summary">Gerätetemperatur anzeigen</string>
+    <string name="cpu_usage">CPU-Auslastung</string>
+    <string name="cpu_usage_summary">Aktuelle CPU-Auslastung in Prozent anzeigen</string>
+    <string name="cpu_clock_speeds">CPU-Taktfrequenzen</string>
+    <string name="cpu_clock_speeds_summary">Aktuelle CPU-Taktfrequenzen für jeden Kern anzeigen</string>
+    <string name="cpu_temperature">CPU-Temperatur</string>
+    <string name="cpu_temperature_summary">CPU-Temperatur anzeigen</string>
+    <string name="ram_usage">RAM-Nutzung</string>
+    <string name="ram_usage_summary">Aktuelle RAM-Nutzung in MB anzeigen</string>
+    <string name="ram_frequency">RAM-Frequenz</string>
+    <string name="ram_frequency_summary">Aktuelle RAM-Frequenz (Bus) in GHz anzeigen</string>
+    <string name="ram_temperature">RAM-Temperatur</string>
+    <string name="ram_temperature_summary">Aktuelle RAM-Temperatur anzeigen</string>
+    <string name="gpu_usage">GPU-Auslastung</string>
+    <string name="gpu_usage_summary">GPU-Auslastung in Prozent anzeigen</string>
+    <string name="gpu_clock_speed">GPU-Taktfrequenz</string>
+    <string name="gpu_clock_speed_summary">Aktuelle GPU-Taktfrequenz anzeigen</string>
+    <string name="gpu_temperature">GPU-Temperatur</string>
+    <string name="gpu_temperature_summary">Aktuelle GPU-Temperatur anzeigen</string>
+
+    <!-- Preferences - FPS Method -->
+    <string name="category_fps_method">FPS-Messmethode</string>
+    <string name="fps_display_mode">FPS-Anzeigemodus</string>
+    <string name="fps_display_mode_summary">Wählen, welche FPS-Statistiken angezeigt werden sollen</string>
+    <string name="select_fps_method">FPS-Methode auswählen</string>
+    <string name="select_fps_method_summary">Zwischen neuer API-Methode (Standard) und Legacy-Sysfs wählen</string>
+
+    <!-- Preferences - Customization -->
+    <string name="category_customization">Anpassung</string>
+    <string name="text_size">Textgröße</string>
+    <string name="text_size_summary">Größe des Overlay-Textes anpassen</string>
+    <string name="background_transparency">Hintergrundtransparenz</string>
+    <string name="background_transparency_summary">Transparenz des Hintergrunds anpassen</string>
+    <string name="overlay_background_color">Overlay-Hintergrundfarbe</string>
+    <string name="overlay_background_color_summary">Farbe für den Overlay-Hintergrund</string>
+    <string name="overlay_corner_radius">Overlay-Eckenradius</string>
+    <string name="overlay_corner_radius_summary">Rundung der Overlay-Ecken anpassen</string>
+    <string name="overlay_padding">Overlay-Abstand</string>
+    <string name="overlay_padding_summary">Abstand um die Statistiken anpassen</string>
+    <string name="item_spacing">Elementabstand</string>
+    <string name="item_spacing_summary">Abstand zwischen Overlay-Zeilen anpassen</string>
+    <string name="update_interval">Aktualisierungsintervall</string>
+    <string name="update_interval_summary">Festlegen, wie oft die Overlay-Werte aktualisiert werden</string>
+    <string name="stat_title_color">Statistik-Titelfarbe</string>
+    <string name="stat_title_color_summary">Farbe für \'FPS\', \'Temp\', \'CPU\', usw. Text</string>
+    <string name="stat_value_color">Statistik-Wertfarbe</string>
+    <string name="stat_value_color_summary">Farbe für numerische Statistiken (z.B. \'29\', \'32.0°C\')</string>
+    <string name="overlay_font_style">Overlay-Schriftstil</string>
+    <string name="overlay_font_style_summary">Benutzerdefinierte Schriftart für Overlay-Text wählen</string>
+    <string name="overlay_position">Overlay-Position</string>
+    <string name="overlay_position_summary">Position des Overlays auf dem Bildschirm auswählen</string>
+    <string name="overlay_format">Overlay-Format</string>
+    <string name="overlay_format_summary">Zwischen vollständiger oder minimaler Anzeige wählen</string>
+
+    <!-- Preferences - Split Config -->
+    <string name="category_split_config">Split-Konfiguration</string>
+    <string name="split_mode">Split-Modus</string>
+    <string name="split_mode_summary">Nebeneinander oder gestapelte Anordnung wählen</string>
+
+    <!-- Preferences - Gesture Controls -->
+    <string name="category_gesture_controls">Overlay-Gestensteuerung</string>
+    <string name="enable_single_tap_toggle">Einzeltippen zum Umschalten aktivieren</string>
+    <string name="enable_single_tap_toggle_summary">Einmal tippen, um zwischen vollständigen und minimalen Overlay-Formaten zu wechseln</string>
+    <string name="single_tap_function">Einzeltipp-Funktion</string>
+    <string name="single_tap_function_summary">Wählen, was beim Einzeltippen passieren soll</string>
+    <string name="enable_double_tap_capture">Doppeltippen zum Erfassen aktivieren</string>
+    <string name="enable_double_tap_capture_summary">Doppeltippen auf Overlay, um Protokollerfassung zu starten/stoppen</string>
+    <string name="double_tap_function">Doppeltipp-Funktion</string>
+    <string name="double_tap_function_summary">Wählen, was beim Doppeltippen passieren soll</string>
+    <string name="enable_long_press">Langes Drücken aktivieren</string>
+    <string name="enable_long_press_summary">Lang auf Overlay drücken, um auf GameBar-Einstellungen zuzugreifen</string>
+    <string name="long_press_function">Funktion für langes Drücken</string>
+    <string name="long_press_function_summary">Wählen, was beim langen Drücken passieren soll</string>
+    <string name="long_press_duration">Dauer des langen Drückens</string>
+    <string name="long_press_duration_summary">Erforderliche Dauer für langes Drücken des Overlays festlegen</string>
+
+    <!-- Preferences - Per-App -->
+    <string name="category_per_app">Pro-App-GameBar</string>
+    <string name="auto_enable_gamebar">GameBar für ausgewählte Apps automatisch aktivieren</string>
+    <string name="auto_enable_gamebar_summary">Wenn aktiviert, aktivieren ausgewählte Apps GameBar automatisch, auch wenn der Hauptschalter aus ist</string>
+    <string name="configure_apps">Apps konfigurieren</string>
+    <string name="configure_apps_summary">Wählen Sie aus, welche Apps GameBar automatisch aktivieren</string>
+
+    <!-- Menu Items -->
+    <string name="menu_log_monitor">Protokollmonitor</string>
+    <string name="menu_open_external_log">Externes Protokoll öffnen</string>
+    <string name="menu_open">Öffnen</string>
+    <string name="menu_share">Teilen</string>
+    <string name="menu_export">Exportieren</string>
+    <string name="menu_delete">Löschen</string>
+    <string name="menu_logging_parameters">Protokollierungsparameter</string>
+
+    <!-- Layout Strings -->
+    <string name="tab_global">Global</string>
+    <string name="tab_per_app">Pro App</string>
+    <string name="btn_manual_logs">Manuelle Protokolle</string>
+    <string name="btn_start_capture">Erfassung starten</string>
+    <string name="btn_stop_capture">Erfassung stoppen</string>
+    <string name="btn_capturing">Aufnahme läuft...</string>
+    <string name="btn_per_app_logging_active">Pro-App-Protokollierung aktiv</string>
+    <string name="btn_enable_per_app_logging">Pro-App-Protokollierung aktivieren</string>
+    <string name="btn_no_apps_enabled">Keine Apps aktiviert</string>
+    <string name="no_logs_available">Keine Protokolle verfügbar</string>
+    <string name="no_logs_hint">Aktivieren Sie die Pro-App-Protokollierung und verwenden Sie die App, um Protokolle zu generieren</string>
+    <string name="font_name_placeholder">Schriftname</string>
+    <!-- Analytics Dialog -->
+    <string name="session_information">Sitzungsinformationen</string>
+    <string name="fps_statistics">FPS-STATISTIKEN</string>
+    <string name="max_fps_label">Max FPS:      0.0</string>
+    <string name="min_fps_label">Min FPS:      0.0</string>
+    <string name="avg_fps_label">Durchschn. FPS:      0.0</string>
+    <string name="variance_label">Varianz:     0.00</string>
+    <string name="std_dev_label">Std-Abw:      0.00</string>
+    <string name="smoothness_label">Glätte:   0.0%%</string>
+    <string name="one_percent_low_label">1%% Niedrig:       0.0 FPS</string>
+    <string name="zero_one_percent_low_label">0.1%% Niedrig:     0.0 FPS</string>
+    <string name="cpu_statistics">CPU-STATISTIKEN</string>
+    <string name="cpu_summary">CPU-ZUSAMMENFASSUNG</string>
+    <string name="max_cpu_usage_label">Max Auslastung:    0%%</string>
+
+    <string name="min_cpu_usage_label">Min Auslastung:    0%%</string>
+    <string name="avg_cpu_usage_label">Durchschn. Auslastung:    0%%</string>
+    <string name="max_cpu_temp_label">Max Temp:     0.0°C</string>
+    <string name="min_cpu_temp_label">Min Temp:     0.0°C</string>
+    <string name="avg_cpu_temp_label">Durchschn. Temp:     0.0°C</string>
+    <string name="gpu_statistics">GPU-STATISTIKEN</string>
+    <string name="gpu_summary">GPU-ZUSAMMENFASSUNG</string>
+    <string name="max_gpu_usage_label">Max Auslastung:    0%%</string>
+    <string name="min_gpu_usage_label">Min Auslastung:    0%%</string>
+    <string name="avg_gpu_usage_label">Durchschn. Auslastung:    0%%</string>
+    <string name="max_gpu_temp_label">Max Temp:     0.0°C</string>
+    <string name="min_gpu_temp_label">Min Temp:     0.0°C</string>
+    <string name="avg_gpu_temp_label">Durchschn. Temp:     0.0°C</string>
+    <string name="max_gpu_clock_label">Max Takt:    0 MHz</string>
+    <string name="min_gpu_clock_label">Min Takt:    0 MHz</string>
+    <string name="avg_gpu_clock_label">Durchschn. Takt:    0 MHz</string>
+
+    <!-- Source Code Messages -->
+    <string name="unknown_app">Unbekannte App</string>
+    <string name="logs_for_app">Protokolle für %s</string>
+    <string name="no_logs_for_app">Keine Protokolle verfügbar für %s</string>
+    <string name="log_analytics">Protokollanalyse</string>
+    <string name="analyzing_log">Protokoll wird analysiert€¦</string>
+    <string name="analyzing_log_message">Bitte warten Sie, während wir die Sitzungsdaten analysieren.</string>
+    <string name="failed_to_analyze_log">Protokolldatei konnte nicht analysiert werden</string>
+    <string name="error_loading_logs">Fehler beim Laden der Protokolle: %s</string>
+    <string name="saved_to_path">Gespeichert: %s</string>
+    <string name="failed_to_save">Speichern fehlgeschlagen: %s</string>
+    <string name="graphics_ready_to_share">Grafiken bereit zum Teilen!</string>
+    <string name="failed_to_share">Teilen fehlgeschlagen: %s</string>
+    <string name="error_message">Fehler: %s</string>
+    <string name="unable_to_open_guide">Benutzerhandbuch kann nicht geöffnet werden: %s</string>
+    <string name="file_picker_unavailable">Dateiauswahl nicht verfügbar: %s</string>
+    <string name="error_opening_file">Fehler beim Öffnen der Datei: %s</string>
+    <string name="external_log">Externes Protokoll</string>
+
+    <!-- Additional Toast Messages -->
+    <string name="error_initializing_log_monitor">Fehler beim Initialisieren des Protokollmonitors: %s</string>
+    <string name="per_app_logging_enabled_message">Pro-App-Protokollierung aktiviert - Protokolle starten automatisch, wenn aktivierte Apps aktiv werden</string>
+    <string name="stopped_logging_exported">Protokollierung gestoppt und Daten exportiert</string>
+    <string name="stopped_per_app_logging">Pro-App-Protokollierung gestoppt</string>
+    <string name="no_manual_logs_found">Keine manuellen Protokolle gefunden</string>
+    <string name="file_location">Dateispeicherort: %s</string>
+    <string name="file_saved_at">Gespeichert unter: %s</string>
+    <string name="log_file_deleted">Protokolldatei gelöscht</string>
+    <string name="failed_to_delete_log">Protokolldatei konnte nicht gelöscht werden</string>
+    <string name="error_deleting_file">Fehler beim Löschen der Datei: %s</string>
+    <string name="error_loading_apps">Fehler beim Laden der Apps: %s</string>
+    <string name="gamebar_logging_enabled_overlay_off">%s: GameBar-Protokollierung aktiviert, aber GameBar-Overlay ist AUS. Schalten Sie GameBar EIN, um Protokolle zu sammeln.</string>
+    <string name="gamebar_logging_enabled_overlay_off_generic">GameBar-Protokollierung aktiviert, aber GameBar-Overlay ist AUS. Schalten Sie GameBar EIN, um Protokolle zu sammeln.</string>
+    <string name="app_gamebar_log_started">%s GameBar-Protokoll gestartet</string>
+    <string name="package_gamebar_log_started">%s GameBar-Protokoll gestartet</string>
+    <string name="app_gamebar_log_ended">%s GameBar-Protokoll beendet</string>
+    <string name="package_gamebar_log_ended">%s GameBar-Protokoll beendet</string>
+    <string name="cannot_start_logging_overlay_off">Protokollierung kann nicht gestartet werden - GameBar-Overlay ist AUS</string>
+    <string name="manual_logging_started">%s: Manuelle Protokollierung gestartet</string>
+    <string name="manual_logging_started_package">Manuelle Protokollierung für %s gestartet</string>
+    <string name="auto_logging_enabled_message">Diese App hat automatische Protokollierung aktiviert. Protokolle werden automatisch gespeichert.</string>
+    <string name="manual_logging_stopped_saved">Manuelle Protokollierung gestoppt und gespeichert</string>
+    <string name="capture_stopped_exported">Aufnahme gestoppt und Daten exportiert</string>
+    <string name="capture_started">Aufnahme gestartet</string>
+    <string name="overlay_format_changed">Overlay-Format: %s</string>
+    <string name="failed_to_load_analytics">Analysedaten konnten nicht geladen werden</string>
+    <string name="screenshot_taken">Screenshot erstellt</string>
+    <string name="failed_to_take_screenshot">Screenshot konnte nicht erstellt werden</string>
+    <string name="screen_recorder_not_available">Bildschirmaufzeichnung nicht verfügbar</string>
+    <string name="screen_recording_started">Bildschirmaufzeichnung gestartet</string>
+    <string name="screen_recording_stopped">Bildschirmaufzeichnung gestoppt</string>
+    <string name="failed_to_toggle_screen_recording">Bildschirmaufzeichnung konnte nicht umgeschaltet werden</string>
+
+    <!-- Dialog Titles and Messages -->
+    <string name="dialog_session_analytics">Sitzungsanalyse</string>
+    <string name="dialog_manual_logs">Manuelle Protokolle</string>
+    <string name="dialog_delete_log_title">Protokolldatei löschen</string>
+    <string name="dialog_delete_log_message">Möchten Sie diese Protokolldatei wirklich löschen?\n\n%s</string>
+    <string name="dialog_logging_parameters_title">Protokollierungsparameter</string>
+    <string name="dialog_logging_parameters_message">Wählen Sie aus, welche Parameter in Protokolle aufgenommen werden sollen:</string>
+    <string name="button_actions">Aktionen</string>
+    <string name="button_close">Schließen</string>
+    <string name="button_delete">Löschen</string>
+    <string name="button_cancel">Abbrechen</string>
+    <string name="button_apply">Anwenden</string>
+    <string name="button_reset">Zurücksetzen</string>
+    <!-- Hints and Content Descriptions -->
+    <string name="hint_search_logs">Protokolle durchsuchen...</string>
+    <string name="hint_search_app_logs">%s-Protokolle durchsuchen...</string>
+    <string name="hint_search_apps">Apps durchsuchen...</string>
+    <string name="hint_search_fonts">Schriftarten durchsuchen...</string>
+    <string name="content_desc_expand_collapse">Erweitern/Reduzieren</string>
+
+</resources>

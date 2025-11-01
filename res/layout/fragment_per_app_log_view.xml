@@ -13,7 +13,7 @@
         android:id="@+id/search_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Search logs..."
+        android:hint="@string/hint_search_logs"
         android:inputType="text"
         android:background="@drawable/bg_search_rounded"
         android:padding="12dp"
@@ -53,7 +53,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="No logs available"
+                android:text="@string/no_logs_available"
                 android:textColor="@android:color/darker_gray"
                 android:textSize="16sp" />
 
@@ -62,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:gravity="center"
-                android:text="Enable per-app logging and use the app to generate logs"
+                android:text="@string/no_logs_hint"
                 android:textColor="@android:color/darker_gray"
                 android:textSize="14sp" />
 

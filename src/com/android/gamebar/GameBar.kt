@@ -192,7 +192,7 @@ class GameBar private constructor(context: Context) {
                     .edit()
                     .putString("game_bar_format", overlayFormat)
                     .apply()
-                Toast.makeText(context, "Overlay Format: $overlayFormat", Toast.LENGTH_SHORT).show()
+                Toast.makeText(context, context.getString(R.string.overlay_format_changed, overlayFormat), Toast.LENGTH_SHORT).show()
                 updateStats()
             }
             "capture_logs" -> {
@@ -202,10 +202,10 @@ class GameBar private constructor(context: Context) {
                 
                 if (dataExport.getLoggingMode() == GameDataExport.LoggingMode.PER_APP) {
                     if (perAppLogManager.isAppLoggingEnabled(context, currentPackage)) {
-                        Toast.makeText(context, "This app has auto-logging enabled. Logs are saved automatically.", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(context, context.getString(R.string.auto_logging_enabled_message), Toast.LENGTH_SHORT).show()
                     } else if (perAppLogManager.isAppLoggingActive(currentPackage)) {
                         perAppLogManager.stopManualLoggingForApp(currentPackage)
-                        Toast.makeText(context, "Manual logging stopped and saved", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(context, context.getString(R.string.manual_logging_stopped_saved), Toast.LENGTH_SHORT).show()
                     } else {
                         perAppLogManager.startManualLoggingForApp(currentPackage)
                     }
@@ -213,10 +213,10 @@ class GameBar private constructor(context: Context) {
                     if (dataExport.isCapturing()) {
                         dataExport.stopCapture()
                         dataExport.exportDataToCsv()
-                        Toast.makeText(context, "Capture Stopped and Data Exported", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(context, context.getString(R.string.capture_stopped_exported), Toast.LENGTH_SHORT).show()
                     } else {
                         dataExport.startCapture()
-                        Toast.makeText(context, "Capture Started", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(context, context.getString(R.string.capture_started), Toast.LENGTH_SHORT).show()
                     }
                 }
             }
@@ -1187,9 +1187,9 @@ class GameBar private constructor(context: Context) {
         try {
             // Trigger system screenshot using shell command
             Runtime.getRuntime().exec("input keyevent KEYCODE_SYSRQ")
-            Toast.makeText(context, "Screenshot taken", Toast.LENGTH_SHORT).show()
+            Toast.makeText(context, context.getString(R.string.screenshot_taken), Toast.LENGTH_SHORT).show()
         } catch (e: Exception) {
-            Toast.makeText(context, "Failed to take screenshot", Toast.LENGTH_SHORT).show()
+            Toast.makeText(context, context.getString(R.string.failed_to_take_screenshot), Toast.LENGTH_SHORT).show()
         }
     }
     
@@ -1223,7 +1223,7 @@ class GameBar private constructor(context: Context) {
     private fun toggleScreenRecording() {
         val recorder = remoteRecording
         if (recorder == null) {
-            Toast.makeText(context, "Screen recorder not available", Toast.LENGTH_SHORT).show()
+            Toast.makeText(context, context.getString(R.string.screen_recorder_not_available), Toast.LENGTH_SHORT).show()
             return
         }
         
@@ -1234,14 +1234,14 @@ class GameBar private constructor(context: Context) {
             if (!isStarting) {
                 if (!isRecording) {
                     recorder.startRecording()
-                    Toast.makeText(context, "Screen recording started", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(context, context.getString(R.string.screen_recording_started), Toast.LENGTH_SHORT).show()
                 } else {
                     recorder.stopRecording()
-                    Toast.makeText(context, "Screen recording stopped", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(context, context.getString(R.string.screen_recording_stopped), Toast.LENGTH_SHORT).show()
                 }
             }
         } catch (e: Exception) {
-            Toast.makeText(context, "Failed to toggle screen recording", Toast.LENGTH_SHORT).show()
+            Toast.makeText(context, context.getString(R.string.failed_to_toggle_screen_recording), Toast.LENGTH_SHORT).show()
             android.util.Log.e("GameBar", "Screen recording error: ${e.message}")
         }
     }

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2025 kenway214
+     SPDX-FileCopyrightText: 2025 keosh1
+     SPDX-License-Identifier: Apache-2.0
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- GameBar -->
+    <string name="tile_add">Agregar mosaico</string>
+    <string name="tile_added">Mosaico agregado</string>
+    <string name="tile_not_added">Mosaico no agregado</string>
+    <string name="tile_already_added">Mosaico ya agregado</string>
+    <string name="tile_on">Activado</string>
+    <string name="tile_off">Desactivado</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Valor: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">por defecto</string>
+    <string name="custom_seekbar_default_value_to_set">Valor por defecto: <xliff:g id="v">%s</xliff:g>\nMantén presionado para establecer</string>
+    <string name="custom_seekbar_default_value_is_set">Valor por defecto establecido</string>
+
+    <!-- GameBar Overlay -->
+    <string name="game_bar_summary">Habilitar la superposición del sistema (FPS, Temp, etc.)</string>
+    <string name="overlay_permission_required">Se requiere permiso de superposición</string>
+    <string name="overlay_permission_granted">Permiso de superposición concedido</string>
+    <string name="overlay_permission_denied">Permiso de superposición denegado</string>
+    <string name="game_bar_tile_description">Alternar la superposición del juego</string>
+    <string name="game_bar_user_guide">Guía del Usuario</string>
+
+    <!-- ColorPicker -->
+    <string name="gamebar_default_title">Seleccionar un Color</string>
+    <string name="gamebar_presets">Preestablecidos</string>
+    <string name="gamebar_custom">Personalizado</string>
+    <string name="gamebar_select">Seleccionar</string>
+    <string name="gamebar_transparency">Transparencia</string>
+
+    <!-- Preferences - Main -->
+    <string name="enable_gamebar_overlay">Habilitar Superposición de GameBar</string>
+
+    <!-- Preferences - Overlay Features -->
+    <string name="category_overlay_features">Funciones de Superposición</string>
+    <string name="fps_overlay">Superposición de FPS</string>
+    <string name="fps_overlay_summary">Mostrar FPS actual en pantalla</string>
+    <string name="frame_time">Tiempo de Fotograma</string>
+    <string name="frame_time_summary">Mostrar tiempo de fotograma en milisegundos</string>
+    <string name="device_temperature">Temperatura del Dispositivo</string>
+    <string name="device_temperature_summary">Mostrar temperatura del dispositivo</string>
+    <string name="cpu_usage">Uso de CPU</string>
+    <string name="cpu_usage_summary">Mostrar porcentaje de uso actual de CPU</string>
+    <string name="cpu_clock_speeds">Velocidades de Reloj de CPU</string>
+    <string name="cpu_clock_speeds_summary">Mostrar velocidades de reloj actuales de CPU para cada núcleo</string>
+    <string name="cpu_temperature">Temperatura de CPU</string>
+    <string name="cpu_temperature_summary">Mostrar temperatura de CPU</string>
+    <string name="ram_usage">Uso de RAM</string>
+    <string name="ram_usage_summary">Mostrar uso actual de RAM en MB</string>
+    <string name="ram_frequency">Frecuencia de RAM</string>
+    <string name="ram_frequency_summary">Mostrar frecuencia actual de RAM (bus) en GHz</string>
+    <string name="ram_temperature">Temperatura de RAM</string>
+    <string name="ram_temperature_summary">Mostrar temperatura actual de RAM</string>
+    <string name="gpu_usage">Uso de GPU</string>
+    <string name="gpu_usage_summary">Mostrar porcentaje de uso de GPU</string>
+    <string name="gpu_clock_speed">Velocidad de Reloj de GPU</string>
+    <string name="gpu_clock_speed_summary">Mostrar frecuencia de reloj actual de GPU</string>
+    <string name="gpu_temperature">Temperatura de GPU</string>
+    <string name="gpu_temperature_summary">Mostrar temperatura actual de GPU</string>
+
+    <!-- Preferences - FPS Method -->
+    <string name="category_fps_method">Método de Medición de FPS</string>
+    <string name="fps_display_mode">Modo de Visualización FPS</string>
+    <string name="fps_display_mode_summary">Elegir qué estadísticas FPS mostrar</string>
+    <string name="select_fps_method">Seleccionar Método de FPS</string>
+    <string name="select_fps_method_summary">Elegir entre el método de API nueva (predeterminado) y Sysfs heredado</string>
+
+    <!-- Preferences - Customization -->
+    <string name="category_customization">Personalización</string>
+    <string name="text_size">Tamaño de Texto</string>
+    <string name="text_size_summary">Ajustar el tamaño del texto de superposición</string>
+    <string name="background_transparency">Transparencia de Fondo</string>
+    <string name="background_transparency_summary">Ajustar la transparencia del fondo</string>
+    <string name="overlay_background_color">Color de Fondo de Superposición</string>
+    <string name="overlay_background_color_summary">Color para el fondo de superposición</string>
+    <string name="overlay_corner_radius">Radio de Esquina de Superposición</string>
+    <string name="overlay_corner_radius_summary">Ajustar qué tan redondeadas deben ser las esquinas de superposición</string>
+    <string name="overlay_padding">Relleno de Superposición</string>
+    <string name="overlay_padding_summary">Ajustar el espacio alrededor de las estadísticas</string>
+    <string name="item_spacing">Espaciado de Elementos</string>
+    <string name="item_spacing_summary">Ajustar espaciado entre líneas de superposición</string>
+    <string name="update_interval">Intervalo de Actualización</string>
+    <string name="update_interval_summary">Establecer con qué frecuencia se actualizan los valores de superposición</string>
+    <string name="stat_title_color">Color de Título de Estadística</string>
+    <string name="stat_title_color_summary">Color para texto \'FPS\', \'Temp\', \'CPU\', etc.</string>
+    <string name="stat_value_color">Color de Valor de Estadística</string>
+    <string name="stat_value_color_summary">Color para estadísticas numéricas (ej. \'29\', \'32.0°C\')</string>
+    <string name="overlay_font_style">Estilo de Fuente de Superposición</string>
+    <string name="overlay_font_style_summary">Elegir fuente personalizada para texto de superposición</string>
+    <string name="overlay_position">Posición de Superposición</string>
+    <string name="overlay_position_summary">Seleccionar la posición de la superposición en pantalla</string>
+    <string name="overlay_format">Formato de Superposición</string>
+    <string name="overlay_format_summary">Elegir entre visualización completa o mínima</string>
+
+    <!-- Preferences - Split Config -->
+    <string name="category_split_config">Configuración de División</string>
+    <string name="split_mode">Modo de División</string>
+    <string name="split_mode_summary">Elegir disposición lado a lado o apilada</string>
+
+    <!-- Preferences - Gesture Controls -->
+    <string name="category_gesture_controls">Controles de Gestos de Superposición</string>
+    <string name="enable_single_tap_toggle">Habilitar Toque Simple para Alternar</string>
+    <string name="enable_single_tap_toggle_summary">Toque una vez para cambiar entre formatos de superposición completo y mínimo</string>
+    <string name="single_tap_function">Función de Toque Simple</string>
+    <string name="single_tap_function_summary">Elegir qué ocurre al tocar una vez</string>
+    <string name="enable_double_tap_capture">Habilitar Doble Toque para Capturar</string>
+    <string name="enable_double_tap_capture_summary">Doble toque en superposición para iniciar/detener captura de registros</string>
+    <string name="double_tap_function">Función de Doble Toque</string>
+    <string name="double_tap_function_summary">Elegir qué ocurre al tocar dos veces</string>
+    <string name="enable_long_press">Habilitar Pulsación Larga</string>
+    <string name="enable_long_press_summary">Pulsación larga en superposición para acceder a configuración de GameBar</string>
+    <string name="long_press_function">Función de Pulsación Larga</string>
+    <string name="long_press_function_summary">Elegir qué ocurre al pulsar largamente</string>
+    <string name="long_press_duration">Duración de Pulsación Larga</string>
+    <string name="long_press_duration_summary">Establecer la duración requerida para pulsación larga en superposición</string>
+
+    <!-- Preferences - Per-App -->
+    <string name="category_per_app">GameBar por Aplicación</string>
+    <string name="auto_enable_gamebar">Habilitar GameBar Automáticamente para Aplicaciones Seleccionadas</string>
+    <string name="auto_enable_gamebar_summary">Si está activado, las aplicaciones seleccionadas habilitarán GameBar automáticamente incluso si el interruptor principal está apagado</string>
+    <string name="configure_apps">Configurar Aplicaciones</string>
+    <string name="configure_apps_summary">Elegir qué aplicaciones habilitarán GameBar automáticamente</string>
+
+    <!-- Menu Items -->
+    <string name="menu_log_monitor">Monitor de Registros</string>
+    <string name="menu_open_external_log">Abrir Registro Externo</string>
+    <string name="menu_open">Abrir</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_export">Exportar</string>
+    <string name="menu_delete">Eliminar</string>
+    <string name="menu_logging_parameters">Parámetros de Registro</string>
+
+    <!-- Layout Strings -->
+    <string name="tab_global">Global</string>
+    <string name="tab_per_app">Por Aplicación</string>
+    <string name="btn_manual_logs">Registros Manuales</string>
+    <string name="btn_start_capture">Iniciar Captura</string>
+    <string name="btn_stop_capture">Detener Captura</string>
+    <string name="btn_capturing">Capturando...</string>
+    <string name="btn_per_app_logging_active">Registro por Aplicación Activo</string>
+    <string name="btn_enable_per_app_logging">Habilitar Registro por Aplicación</string>
+    <string name="btn_no_apps_enabled">No hay Aplicaciones Habilitadas</string>
+    <string name="no_logs_available">No hay registros disponibles</string>
+    <string name="no_logs_hint">Habilite el registro por aplicación y use la aplicación para generar registros</string>
+    <string name="font_name_placeholder">Nombre de Fuente</string>
+    <!-- Analytics Dialog -->
+    <string name="session_information">Información de Sesión</string>
+    <string name="fps_statistics">ESTADÍSTICAS DE FPS</string>
+    <string name="max_fps_label">FPS Máx:      0.0</string>
+    <string name="min_fps_label">FPS Mín:      0.0</string>
+    <string name="avg_fps_label">FPS Prom:      0.0</string>
+    <string name="variance_label">Varianza:     0.00</string>
+    <string name="std_dev_label">Desv Est:      0.00</string>
+    <string name="smoothness_label">Suavidad:   0.0%%</string>
+    <string name="one_percent_low_label">1%% Bajo:       0.0 FPS</string>
+    <string name="zero_one_percent_low_label">0.1%% Bajo:     0.0 FPS</string>
+    <string name="cpu_statistics">ESTADÍSTICAS DE CPU</string>
+    <string name="cpu_summary">RESUMEN DE CPU</string>
+    <string name="max_cpu_usage_label">Uso Máx:    0%%</string>
+    <string name="min_cpu_usage_label">Uso Mín:    0%%</string>
+    <string name="avg_cpu_usage_label">Uso Prom:    0%%</string>
+    <string name="max_cpu_temp_label">Temp Máx:     0.0°C</string>
+    <string name="min_cpu_temp_label">Temp Mín:     0.0°C</string>
+    <string name="avg_cpu_temp_label">Temp Prom:     0.0°C</string>
+    <string name="gpu_statistics">ESTADÍSTICAS DE GPU</string>
+    <string name="gpu_summary">RESUMEN DE GPU</string>
+    <string name="max_gpu_usage_label">Uso Máx:    0%%</string>
+    <string name="min_gpu_usage_label">Uso Mín:    0%%</string>
+    <string name="avg_gpu_usage_label">Uso Prom:    0%%</string>
+    <string name="max_gpu_temp_label">Temp Máx:     0.0°C</string>
+    <string name="min_gpu_temp_label">Temp Mín:     0.0°C</string>
+    <string name="avg_gpu_temp_label">Temp Prom:     0.0°C</string>
+    <string name="max_gpu_clock_label">Reloj Máx:    0 MHz</string>
+    <string name="min_gpu_clock_label">Reloj Mín:    0 MHz</string>
+    <string name="avg_gpu_clock_label">Reloj Prom:    0 MHz</string>
+
+    <!-- Source Code Messages -->
+    <string name="unknown_app">Aplicación Desconocida</string>
+    <string name="logs_for_app">Registros para %s</string>
+    <string name="no_logs_for_app">No hay registros disponibles para %s</string>
+    <string name="log_analytics">Análisis de Registros</string>
+    <string name="analyzing_log">Analizando Registro…</string>
+    <string name="analyzing_log_message">Por favor espere mientras analizamos los datos de sesión.</string>
+    <string name="failed_to_analyze_log">Error al analizar archivo de registro</string>
+    <string name="error_loading_logs">Error al cargar registros: %s</string>
+    <string name="saved_to_path">Guardado: %s</string>
+    <string name="failed_to_save">Error al guardar: %s</string>
+    <string name="graphics_ready_to_share">¡Gráficos listos para compartir!</string>
+    <string name="failed_to_share">Error al compartir: %s</string>
+    <string name="error_message">Error: %s</string>
+    <string name="unable_to_open_guide">No se puede abrir la guía del usuario: %s</string>
+    <string name="file_picker_unavailable">Selector de archivos no disponible: %s</string>
+    <string name="error_opening_file">Error al abrir archivo: %s</string>
+    <string name="external_log">Registro Externo</string>
+
+    <!-- Additional Toast Messages -->
+    <string name="error_initializing_log_monitor">Error al inicializar el monitor de registros: %s</string>
+    <string name="per_app_logging_enabled_message">Registro por aplicación habilitado - los registros comenzarán automáticamente cuando las aplicaciones habilitadas se activen</string>
+    <string name="stopped_logging_exported">Registro detenido y datos exportados</string>
+    <string name="stopped_per_app_logging">Registro por aplicación detenido</string>
+    <string name="no_manual_logs_found">No se encontraron registros manuales</string>
+    <string name="file_location">Ubicación del archivo: %s</string>
+    <string name="file_saved_at">Guardado en: %s</string>
+    <string name="log_file_deleted">Archivo de registro eliminado</string>
+    <string name="failed_to_delete_log">Error al eliminar archivo de registro</string>
+    <string name="error_deleting_file">Error al eliminar archivo: %s</string>
+    <string name="error_loading_apps">Error al cargar aplicaciones: %s</string>
+    <string name="gamebar_logging_enabled_overlay_off">%s: Registro de GameBar habilitado pero la superposición de GameBar está APAGADA. Active GameBar para recopilar registros.</string>
+    <string name="gamebar_logging_enabled_overlay_off_generic">Registro de GameBar habilitado pero la superposición de GameBar está APAGADA. Active GameBar para recopilar registros.</string>
+    <string name="app_gamebar_log_started">Registro de GameBar de %s iniciado</string>
+    <string name="package_gamebar_log_started">Registro de GameBar de %s iniciado</string>
+    <string name="app_gamebar_log_ended">Registro de GameBar de %s finalizado</string>
+    <string name="package_gamebar_log_ended">Registro de GameBar de %s finalizado</string>
+    <string name="cannot_start_logging_overlay_off">No se puede iniciar el registro - la superposición de GameBar está APAGADA</string>
+    <string name="manual_logging_started">%s: Registro manual iniciado</string>
+    <string name="manual_logging_started_package">Registro manual iniciado para %s</string>
+    <string name="auto_logging_enabled_message">Esta aplicación tiene el registro automático habilitado. Los registros se guardan automáticamente.</string>
+    <string name="manual_logging_stopped_saved">Registro manual detenido y guardado</string>
+    <string name="capture_stopped_exported">Captura detenida y datos exportados</string>
+    <string name="capture_started">Captura iniciada</string>
+    <string name="overlay_format_changed">Formato de superposición: %s</string>
+    <string name="failed_to_load_analytics">Error al cargar datos de análisis</string>
+    <string name="screenshot_taken">Captura de pantalla tomada</string>
+    <string name="failed_to_take_screenshot">Error al tomar captura de pantalla</string>
+    <string name="screen_recorder_not_available">Grabador de pantalla no disponible</string>
+    <string name="screen_recording_started">Grabación de pantalla iniciada</string>
+    <string name="screen_recording_stopped">Grabación de pantalla detenida</string>
+    <string name="failed_to_toggle_screen_recording">Error al alternar grabación de pantalla</string>
+
+    <!-- Dialog Titles and Messages -->
+    <string name="dialog_session_analytics">Análisis de Sesión</string>
+    <string name="dialog_manual_logs">Registros Manuales</string>
+    <string name="dialog_delete_log_title">Eliminar Archivo de Registro</string>
+    <string name="dialog_delete_log_message">¿Está seguro de que desea eliminar este archivo de registro?\n\n%s</string>
+    <string name="dialog_logging_parameters_title">Parámetros de Registro</string>
+    <string name="dialog_logging_parameters_message">Seleccione qué parámetros incluir en los registros:</string>
+    <string name="button_actions">Acciones</string>
+    <string name="button_close">Cerrar</string>
+    <string name="button_delete">Eliminar</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_apply">Aplicar</string>
+    <string name="button_reset">Restablecer</string>
+    <!-- Hints and Content Descriptions -->
+    <string name="hint_search_logs">Buscar registros...</string>
+    <string name="hint_search_app_logs">Buscar registros de %s...</string>
+    <string name="hint_search_apps">Buscar aplicaciones...</string>
+    <string name="hint_search_fonts">Buscar fuentes...</string>
+    <string name="content_desc_expand_collapse">Expandir/Contraer</string>
+
+</resources>

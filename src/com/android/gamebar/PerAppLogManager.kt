@@ -143,11 +143,11 @@ class PerAppLogManager private constructor() {
                             val appInfo = pm.getApplicationInfo(packageName, 0)
                             val appName = pm.getApplicationLabel(appInfo).toString()
                             android.widget.Toast.makeText(it, 
-                                "$appName: GameBar logging enabled but GameBar overlay is OFF. Turn ON GameBar to collect logs.", 
+                                it.getString(R.string.gamebar_logging_enabled_overlay_off, appName), 
                                 android.widget.Toast.LENGTH_LONG).show()
                         } catch (e: Exception) {
                             android.widget.Toast.makeText(it, 
-                                "GameBar logging enabled but GameBar overlay is OFF. Turn ON GameBar to collect logs.", 
+                                it.getString(R.string.gamebar_logging_enabled_overlay_off_generic), 
                                 android.widget.Toast.LENGTH_LONG).show()
                         }
                     }
@@ -174,9 +174,9 @@ class PerAppLogManager private constructor() {
                     try {
                         val appInfo = pm.getApplicationInfo(packageName, 0)
                         val appName = pm.getApplicationLabel(appInfo).toString()
-                        android.widget.Toast.makeText(it, "$appName GameBar log started", android.widget.Toast.LENGTH_SHORT).show()
+                        android.widget.Toast.makeText(it, it.getString(R.string.app_gamebar_log_started, appName), android.widget.Toast.LENGTH_SHORT).show()
                     } catch (e: Exception) {
-                        android.widget.Toast.makeText(it, "$packageName GameBar log started", android.widget.Toast.LENGTH_SHORT).show()
+                        android.widget.Toast.makeText(it, it.getString(R.string.package_gamebar_log_started, packageName), android.widget.Toast.LENGTH_SHORT).show()
                     }
                 }
             } catch (e: Exception) {
@@ -201,9 +201,9 @@ class PerAppLogManager private constructor() {
                         try {
                             val appInfo = pm.getApplicationInfo(packageName, 0)
                             val appName = pm.getApplicationLabel(appInfo).toString()
-                            android.widget.Toast.makeText(it, "$appName GameBar log ended", android.widget.Toast.LENGTH_SHORT).show()
+                            android.widget.Toast.makeText(it, it.getString(R.string.app_gamebar_log_ended, appName), android.widget.Toast.LENGTH_SHORT).show()
                         } catch (e: Exception) {
-                            android.widget.Toast.makeText(it, "$packageName GameBar log ended", android.widget.Toast.LENGTH_SHORT).show()
+                            android.widget.Toast.makeText(it, it.getString(R.string.package_gamebar_log_ended, packageName), android.widget.Toast.LENGTH_SHORT).show()
                         }
                     }
                 } catch (e: Exception) {
@@ -343,7 +343,7 @@ class PerAppLogManager private constructor() {
                     val context = android.app.ActivityThread.currentApplication()
                     context?.let {
                         android.widget.Toast.makeText(it, 
-                            "Cannot start logging - GameBar overlay is OFF", 
+                            it.getString(R.string.cannot_start_logging_overlay_off), 
                             android.widget.Toast.LENGTH_SHORT).show()
                     }
                 } catch (e: Exception) {
@@ -369,9 +369,9 @@ class PerAppLogManager private constructor() {
                     try {
                         val appInfo = pm.getApplicationInfo(packageName, 0)
                         val appName = pm.getApplicationLabel(appInfo).toString()
-                        android.widget.Toast.makeText(it, "$appName: Manual logging started", android.widget.Toast.LENGTH_SHORT).show()
+                        android.widget.Toast.makeText(it, it.getString(R.string.manual_logging_started, appName), android.widget.Toast.LENGTH_SHORT).show()
                     } catch (e: Exception) {
-                        android.widget.Toast.makeText(it, "Manual logging started for $packageName", android.widget.Toast.LENGTH_SHORT).show()
+                        android.widget.Toast.makeText(it, it.getString(R.string.manual_logging_started_package, packageName), android.widget.Toast.LENGTH_SHORT).show()
                     }
                 }
             } catch (e: Exception) {

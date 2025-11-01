@@ -82,17 +82,17 @@ class GameBarLogActivity : CollapsingToolbarBaseActivity() {
         }
         
         AlertDialog.Builder(this)
-            .setTitle("Logging Parameters")
-            .setMessage("Select which parameters to include in logs:")
+            .setTitle(getString(R.string.dialog_logging_parameters_title))
+            .setMessage(getString(R.string.dialog_logging_parameters_message))
             .setView(container)
-            .setPositiveButton("Apply") { _, _ ->
+            .setPositiveButton(getString(R.string.button_apply)) { _, _ ->
                 val editor = prefs.edit()
                 checkboxes.forEach { (key, checkbox) ->
                     editor.putBoolean(key, checkbox.isChecked)
                 }
                 editor.apply()
             }
-            .setNegativeButton("Cancel", null)
+            .setNegativeButton(getString(R.string.button_cancel), null)
             .show()
     }
 }

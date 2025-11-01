@@ -6,11 +6,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/menu_log_monitor"
-        android:title="Log Monitor"
+        android:title="@string/menu_log_monitor"
         android:showAsAction="never" />
     <item
         android:id="@+id/menu_open_external_log"
-        android:title="Open External Log"
+        android:title="@string/menu_open_external_log"
         android:showAsAction="never" />
     <item
         android:id="@+id/menu_user_guide"

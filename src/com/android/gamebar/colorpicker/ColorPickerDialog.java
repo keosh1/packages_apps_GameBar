@@ -186,7 +186,7 @@ public class ColorPickerDialog extends DialogFragment implements ColorPickerView
             onColorSelected(color);
           }
         })
-        .setNegativeButton("Reset", null); // Reset button - will be handled in onStart
+        .setNegativeButton(R.string.button_reset, null); // Reset button - will be handled in onStart
 
     int dialogTitleStringRes = getArguments().getInt(ARG_DIALOG_TITLE);
     if (dialogTitleStringRes != 0) {

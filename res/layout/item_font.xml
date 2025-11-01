@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:textSize="16sp"
             android:textColor="?android:attr/textColorPrimary"
-            android:text="Font Name" />
+            android:text="@string/font_name_placeholder" />
 
         <TextView
             android:id="@+id/font_preview"
@@ -41,7 +41,6 @@
             android:textSize="18sp"
             android:textColor="?android:attr/textColorSecondary"
             android:text="AaBbCc 123" />
-
     </LinearLayout>
 
 </LinearLayout>

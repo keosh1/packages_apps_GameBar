@@ -23,7 +23,7 @@ class LogAnalyticsActivity : CollapsingToolbarBaseActivity() {
         setContentView(R.layout.activity_gamebar_log)
         
         val logFilePath = intent.getStringExtra(EXTRA_LOG_FILE_PATH) ?: ""
-        val logFileName = intent.getStringExtra(EXTRA_LOG_FILE_NAME) ?: "Log Analytics"
+        val logFileName = intent.getStringExtra(EXTRA_LOG_FILE_NAME) ?: getString(R.string.log_analytics)
         
         title = logFileName
         
@@ -35,8 +35,8 @@ class LogAnalyticsActivity : CollapsingToolbarBaseActivity() {
     private fun showAnalytics(filePath: String, fileName: String) {
         // Show loading message
         val loadingDialog = AlertDialog.Builder(this)
-            .setTitle("Analyzing Log...")
-            .setMessage("Please wait while we analyze the session data.")
+            .setTitle(getString(R.string.analyzing_log))
+            .setMessage(getString(R.string.analyzing_log_message))
             .setCancelable(false)
             .create()
         loadingDialog.show()
@@ -64,7 +64,7 @@ class LogAnalyticsActivity : CollapsingToolbarBaseActivity() {
                         .replace(R.id.content_frame, fragment)
                         .commit()
                 } else {
-                    Toast.makeText(this, "Failed to analyze log file", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, getString(R.string.failed_to_analyze_log), Toast.LENGTH_SHORT).show()
                     finish()
                 }
             }

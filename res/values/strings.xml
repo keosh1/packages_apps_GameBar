@@ -7,7 +7,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- GameBar -->
-    <string name="app_title">GameBar</string>
+    <string name="app_title" translatable="false">GameBar</string>
     <string name="tile_add">Add tile</string>
     <string name="tile_added">Tile added</string>
     <string name="tile_not_added">Tile not added</string>
@@ -22,15 +22,15 @@
     <string name="custom_seekbar_default_value_is_set">Default value is set</string>
 
     <!-- GameBar Overlay -->
-    <string name="game_bar_title">GameBar</string>
+    <string name="game_bar_title" translatable="false">GameBar</string>
     <string name="game_bar_summary">Enable the system overlay (FPS, Temp, etc.)</string>
     <string name="overlay_permission_required">Overlay permission is required</string>
     <string name="overlay_permission_granted">Overlay permission granted</string>
     <string name="overlay_permission_denied">Overlay permission denied</string>
-    <string name="game_bar_tile_label">GameBar</string>
+    <string name="game_bar_tile_label" translatable="false">GameBar</string>
     <string name="game_bar_tile_description">Toggle the game overlay</string>
     <string name="game_bar_user_guide">User Guide</string>
-    <string name="game_bar_user_guide_url">https://github.com/kenway214/packages_apps_GameBar/blob/main/GAMEBAR_USER_GUIDE.md</string>
+    <string name="game_bar_user_guide_url" translatable="false">https://github.com/kenway214/packages_apps_GameBar/blob/main/GAMEBAR_USER_GUIDE.md</string>
 
     <!-- ColorPicker -->
     <string name="gamebar_default_title">Select a Color</string>
@@ -38,5 +38,226 @@
     <string name="gamebar_custom">Custom</string>
     <string name="gamebar_select">Select</string>
     <string name="gamebar_transparency">Transparency</string>
+
+    <!-- Preferences - Main -->
+    <string name="enable_gamebar_overlay">Enable GameBar Overlay</string>
+
+    <!-- Preferences - Overlay Features -->
+    <string name="category_overlay_features">Overlay Features</string>
+    <string name="fps_overlay">FPS Overlay</string>
+    <string name="fps_overlay_summary">Show current FPS on screen</string>
+    <string name="frame_time">Frame Time</string>
+    <string name="frame_time_summary">Show frame time in milliseconds</string>
+    <string name="device_temperature">Device Temperature</string>
+    <string name="device_temperature_summary">Show device temperature</string>
+    <string name="cpu_usage">CPU Usage</string>
+    <string name="cpu_usage_summary">Show current CPU usage percentage</string>
+    <string name="cpu_clock_speeds">CPU Clock Speeds</string>
+    <string name="cpu_clock_speeds_summary">Show current CPU clock speeds for each core</string>
+    <string name="cpu_temperature">CPU Temperature</string>
+    <string name="cpu_temperature_summary">Show CPU temperature</string>
+    <string name="ram_usage">RAM Usage</string>
+    <string name="ram_usage_summary">Show current RAM usage in MB</string>
+    <string name="ram_frequency">RAM Frequency</string>
+    <string name="ram_frequency_summary">Show current RAM frequency(bus) in GHz</string>
+    <string name="ram_temperature">RAM Temperature</string>
+    <string name="ram_temperature_summary">Show current RAM temperature</string>
+    <string name="gpu_usage">GPU Usage</string>
+    <string name="gpu_usage_summary">Show GPU usage percentage</string>
+    <string name="gpu_clock_speed">GPU Clock Speed</string>
+    <string name="gpu_clock_speed_summary">Show current GPU clock frequency</string>
+    <string name="gpu_temperature">GPU Temperature</string>
+    <string name="gpu_temperature_summary">Show current GPU temperature</string>
+
+    <!-- Preferences - FPS Method -->
+    <string name="category_fps_method">FPS Measurement Method</string>
+    <string name="fps_display_mode">FPS Display Mode</string>
+    <string name="fps_display_mode_summary">Choose what FPS statistics to display</string>
+    <string name="select_fps_method">Select FPS Method</string>
+    <string name="select_fps_method_summary">Choose between the New API method (default) and Legacy Sysfs</string>
+
+    <!-- Preferences - Customization -->
+    <string name="category_customization">Customization</string>
+    <string name="text_size">Text Size</string>
+    <string name="text_size_summary">Adjust the size of overlay text</string>
+    <string name="background_transparency">Background Transparency</string>
+    <string name="background_transparency_summary">Adjust the transparency of the background</string>
+    <string name="overlay_background_color">Overlay Background Color</string>
+    <string name="overlay_background_color_summary">Color for the overlay background</string>
+    <string name="overlay_corner_radius">Overlay Corner Radius</string>
+    <string name="overlay_corner_radius_summary">Adjust how rounded the overlay corners should be</string>
+    <string name="overlay_padding">Overlay Padding</string>
+    <string name="overlay_padding_summary">Adjust the space around the stats</string>
+    <string name="item_spacing">Item Spacing</string>
+    <string name="item_spacing_summary">Adjust spacing between overlay lines</string>
+    <string name="update_interval">Update Interval</string>
+    <string name="update_interval_summary">Set how often the overlay values update</string>
+    <string name="stat_title_color">Stat Title Color</string>
+    <string name="stat_title_color_summary">Color for \'FPS\', \'Temp\', \'CPU\', etc. text</string>
+    <string name="stat_value_color">Stat Value Color</string>
+    <string name="stat_value_color_summary">Color for numeric stats (e.g., \'29\', \'32.0°C\')</string>
+    <string name="overlay_font_style">Overlay Font Style</string>
+    <string name="overlay_font_style_summary">Choose custom font for overlay text</string>
+    <string name="overlay_position">Overlay Position</string>
+    <string name="overlay_position_summary">Select the position of the overlay on screen</string>
+    <string name="overlay_format">Overlay Format</string>
+    <string name="overlay_format_summary">Choose between Full or Minimal display</string>
+
+    <!-- Preferences - Split Config -->
+    <string name="category_split_config">Split Config</string>
+    <string name="split_mode">Split Mode</string>
+    <string name="split_mode_summary">Choose Side-by-Side or Stacked arrangement</string>
+
+    <!-- Preferences - Gesture Controls -->
+    <string name="category_gesture_controls">Overlay Gesture Controls</string>
+    <string name="enable_single_tap_toggle">Enable Single Tap to Toggle</string>
+    <string name="enable_single_tap_toggle_summary">Tap once to switch between full and minimal overlay formats</string>
+    <string name="single_tap_function">Single Tap Function</string>
+    <string name="single_tap_function_summary">Choose what happens on single tap</string>
+    <string name="enable_double_tap_capture">Enable Double Tap to Capture</string>
+    <string name="enable_double_tap_capture_summary">Double-tap overlay to start/stop capture logs</string>
+    <string name="double_tap_function">Double Tap Function</string>
+    <string name="double_tap_function_summary">Choose what happens on double tap</string>
+    <string name="enable_long_press">Enable Long Press</string>
+    <string name="enable_long_press_summary">Long-press overlay to access GameBar settings</string>
+    <string name="long_press_function">Long Press Function</string>
+    <string name="long_press_function_summary">Choose what happens on long press</string>
+    <string name="long_press_duration">Long Press Duration</string>
+    <string name="long_press_duration_summary">Set the duration required to long-press the overlay</string>
+
+    <!-- Preferences - Per-App -->
+    <string name="category_per_app">Per-App GameBar</string>
+    <string name="auto_enable_gamebar">Auto-Enable GameBar for Selected Apps</string>
+    <string name="auto_enable_gamebar_summary">If turned on, selected apps will auto-enable GameBar even if the main switch is off</string>
+    <string name="configure_apps">Configure Apps</string>
+    <string name="configure_apps_summary">Choose which apps will auto-enable GameBar</string>
+
+    <!-- Menu Items -->
+    <string name="menu_log_monitor">Log Monitor</string>
+    <string name="menu_open_external_log">Open External Log</string>
+    <string name="menu_open">Open</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_export">Export</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_logging_parameters">Logging Parameters</string>
+
+    <!-- Layout Strings -->
+    <string name="tab_global">Global</string>
+    <string name="tab_per_app">Per App</string>
+    <string name="btn_manual_logs">Manual Logs</string>
+    <string name="btn_start_capture">Start Capture</string>
+    <string name="btn_stop_capture">Stop Capture</string>
+    <string name="btn_capturing">Capturing...</string>
+    <string name="btn_per_app_logging_active">Per-app Logging Active</string>
+    <string name="btn_enable_per_app_logging">Enable Per-app Logging</string>
+    <string name="btn_no_apps_enabled">No Apps Enabled</string>
+    <string name="no_logs_available">No logs available</string>
+    <string name="no_logs_hint">Enable per-app logging and use the app to generate logs</string>
+    <string name="font_name_placeholder">Font Name</string>
+
+    <!-- Analytics Dialog -->
+    <string name="session_information">Session Information</string>
+    <string name="fps_statistics">FPS STATISTICS</string>
+    <string name="max_fps_label">Max FPS:      0.0</string>
+    <string name="min_fps_label">Min FPS:      0.0</string>
+    <string name="avg_fps_label">Avg FPS:      0.0</string>
+    <string name="variance_label">Variance:     0.00</string>
+    <string name="std_dev_label">Std Dev:      0.00</string>
+    <string name="smoothness_label">Smoothness:   0.0%%</string>
+    <string name="one_percent_low_label">1%% Low:       0.0 FPS</string>
+    <string name="zero_one_percent_low_label">0.1%% Low:     0.0 FPS</string>
+    <string name="cpu_statistics">CPU STATISTICS</string>
+    <string name="cpu_summary">CPU SUMMARY</string>
+    <string name="max_cpu_usage_label">Max Usage:    0%%</string>
+    <string name="min_cpu_usage_label">Min Usage:    0%%</string>
+    <string name="avg_cpu_usage_label">Avg Usage:    0%%</string>
+    <string name="max_cpu_temp_label">Max Temp:     0.0°C</string>
+    <string name="min_cpu_temp_label">Min Temp:     0.0°C</string>
+    <string name="avg_cpu_temp_label">Avg Temp:     0.0°C</string>
+    <string name="gpu_statistics">GPU STATISTICS</string>
+    <string name="gpu_summary">GPU SUMMARY</string>
+    <string name="max_gpu_usage_label">Max Usage:    0%%</string>
+    <string name="min_gpu_usage_label">Min Usage:    0%%</string>
+    <string name="avg_gpu_usage_label">Avg Usage:    0%%</string>
+    <string name="max_gpu_temp_label">Max Temp:     0.0°C</string>
+    <string name="min_gpu_temp_label">Min Temp:     0.0°C</string>
+    <string name="avg_gpu_temp_label">Avg Temp:     0.0°C</string>
+    <string name="max_gpu_clock_label">Max Clock:    0 MHz</string>
+    <string name="min_gpu_clock_label">Min Clock:    0 MHz</string>
+    <string name="avg_gpu_clock_label">Avg Clock:    0 MHz</string>
+
+    <!-- Source Code Messages -->
+    <string name="unknown_app">Unknown App</string>
+    <string name="logs_for_app">Logs for %s</string>
+    <string name="no_logs_for_app">No logs available for %s</string>
+    <string name="log_analytics">Log Analytics</string>
+    <string name="analyzing_log">Analyzing Log…</string>
+    <string name="analyzing_log_message">Please wait while we analyze the session data.</string>
+    <string name="failed_to_analyze_log">Failed to analyze log file</string>
+    <string name="error_loading_logs">Error loading logs: %s</string>
+    <string name="saved_to_path">Saved: %s</string>
+    <string name="failed_to_save">Failed to save: %s</string>
+    <string name="graphics_ready_to_share">Graphics ready to share!</string>
+    <string name="failed_to_share">Failed to share: %s</string>
+    <string name="error_message">Error: %s</string>
+    <string name="unable_to_open_guide">Unable to open user guide: %s</string>
+    <string name="file_picker_unavailable">File picker not available: %s</string>
+    <string name="error_opening_file">Error opening file: %s</string>
+    <string name="external_log">External Log</string>
+
+    <!-- Additional Toast Messages -->
+    <string name="error_initializing_log_monitor">Error initializing log monitor: %s</string>
+    <string name="per_app_logging_enabled_message">Per-app logging enabled - logs will start automatically when enabled apps become active</string>
+    <string name="stopped_logging_exported">Stopped logging and exported data</string>
+    <string name="stopped_per_app_logging">Stopped per-app logging</string>
+    <string name="no_manual_logs_found">No manual logs found</string>
+    <string name="file_location">File location: %s</string>
+    <string name="file_saved_at">File saved at: %s</string>
+    <string name="log_file_deleted">Log file deleted</string>
+    <string name="failed_to_delete_log">Failed to delete log file</string>
+    <string name="error_deleting_file">Error deleting file: %s</string>
+    <string name="error_loading_apps">Error loading apps: %s</string>
+    <string name="gamebar_logging_enabled_overlay_off">%s: GameBar logging enabled but GameBar overlay is OFF. Turn ON GameBar to collect logs.</string>
+    <string name="gamebar_logging_enabled_overlay_off_generic">GameBar logging enabled but GameBar overlay is OFF. Turn ON GameBar to collect logs.</string>
+    <string name="app_gamebar_log_started">%s GameBar log started</string>
+    <string name="package_gamebar_log_started">%s GameBar log started</string>
+    <string name="app_gamebar_log_ended">%s GameBar log ended</string>
+    <string name="package_gamebar_log_ended">%s GameBar log ended</string>
+    <string name="cannot_start_logging_overlay_off">Cannot start logging - GameBar overlay is OFF</string>
+    <string name="manual_logging_started">%s: Manual logging started</string>
+    <string name="manual_logging_started_package">Manual logging started for %s</string>
+    <string name="auto_logging_enabled_message">This app has auto-logging enabled. Logs are saved automatically.</string>
+    <string name="manual_logging_stopped_saved">Manual logging stopped and saved</string>
+    <string name="capture_stopped_exported">Capture Stopped and Data Exported</string>
+    <string name="capture_started">Capture Started</string>
+    <string name="overlay_format_changed">Overlay Format: %s</string>
+    <string name="failed_to_load_analytics">Failed to load analytics data</string>
+    <string name="screenshot_taken">Screenshot taken</string>
+    <string name="failed_to_take_screenshot">Failed to take screenshot</string>
+    <string name="screen_recorder_not_available">Screen recorder not available</string>
+    <string name="screen_recording_started">Screen recording started</string>
+    <string name="screen_recording_stopped">Screen recording stopped</string>
+    <string name="failed_to_toggle_screen_recording">Failed to toggle screen recording</string>
+
+    <!-- Dialog Titles and Messages -->
+    <string name="dialog_session_analytics">Session Analytics</string>
+    <string name="dialog_manual_logs">Manual Logs</string>
+    <string name="dialog_delete_log_title">Delete Log File</string>
+    <string name="dialog_delete_log_message">Are you sure you want to delete this log file?\n\n%s</string>
+    <string name="dialog_logging_parameters_title">Logging Parameters</string>
+    <string name="dialog_logging_parameters_message">Select which parameters to include in logs:</string>
+    <string name="button_actions">Actions</string>
+    <string name="button_close">Close</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_apply">Apply</string>
+    <string name="button_reset">Reset</string>
+
+    <!-- Hints and Content Descriptions -->
+    <string name="hint_search_logs">Search logs...</string>
+    <string name="hint_search_app_logs">Search %s logs...</string>
+    <string name="hint_search_apps">Search apps...</string>
+    <string name="hint_search_fonts">Search fonts...</string>
+    <string name="content_desc_expand_collapse">Expand/Collapse</string>
 
 </resources>

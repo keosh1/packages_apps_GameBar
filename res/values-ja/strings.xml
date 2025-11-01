@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2025 kenway214
+     SPDX-FileCopyrightText: 2025 keosh1
+     SPDX-License-Identifier: Apache-2.0
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- GameBar -->
+    <string name="tile_add">タイルを追加</string>
+    <string name="tile_added">タイルが追加されました</string>
+    <string name="tile_not_added">タイルが追加されませんでした</string>
+    <string name="tile_already_added">タイルは既に追加されています</string>
+    <string name="tile_on">オン</string>
+    <string name="tile_off">オフ</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">値: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">デフォルト</string>
+    <string name="custom_seekbar_default_value_to_set">デフォルト値: <xliff:g id="v">%s</xliff:g>\n長押しで設定</string>
+    <string name="custom_seekbar_default_value_is_set">デフォルト値が設定されました</string>
+
+    <!-- GameBar Overlay -->
+    <string name="game_bar_summary">システムオーバーレイを有効にする（FPS、温度など）</string>
+    <string name="overlay_permission_required">オーバーレイ権限が必要です</string>
+    <string name="overlay_permission_granted">オーバーレイ権限が許可されました</string>
+    <string name="overlay_permission_denied">オーバーレイ権限が拒否されました</string>
+    <string name="game_bar_tile_description">ゲームオーバーレイを切り替え</string>
+    <string name="game_bar_user_guide">ユーザーガイド</string>
+
+    <!-- ColorPicker -->
+    <string name="gamebar_default_title">色を選択</string>
+    <string name="gamebar_presets">プリセット</string>
+    <string name="gamebar_custom">カスタム</string>
+    <string name="gamebar_select">選択</string>
+    <string name="gamebar_transparency">透明度</string>
+
+    <!-- Preferences - Main -->
+    <string name="enable_gamebar_overlay">GameBarオーバーレイを有効にする</string>
+
+    <!-- Preferences - Overlay Features -->
+    <string name="category_overlay_features">オーバーレイ機能</string>
+    <string name="fps_overlay">FPSオーバーレイ</string>
+    <string name="fps_overlay_summary">画面に現在のFPSを表示</string>
+    <string name="frame_time">フレーム時間</string>
+    <string name="frame_time_summary">ミリ秒単位でフレーム時間を表示</string>
+    <string name="device_temperature">デバイス温度</string>
+    <string name="device_temperature_summary">デバイス温度を表示</string>
+    <string name="cpu_usage">CPU使用率</string>
+    <string name="cpu_usage_summary">現在のCPU使用率を表示</string>
+    <string name="cpu_clock_speeds">CPUクロック速度</string>
+    <string name="cpu_clock_speeds_summary">各コアの現在のCPUクロック速度を表示</string>
+    <string name="cpu_temperature">CPU温度</string>
+    <string name="cpu_temperature_summary">CPU温度を表示</string>
+    <string name="ram_usage">RAM使用量</string>
+    <string name="ram_usage_summary">現在のRAM使用量をMB単位で表示</string>
+    <string name="ram_frequency">RAM周波数</string>
+    <string name="ram_frequency_summary">現在のRAM周波数（バス）をGHz単位で表示</string>
+    <string name="ram_temperature">RAM温度</string>
+    <string name="ram_temperature_summary">現在のRAM温度を表示</string>
+    <string name="gpu_usage">GPU使用率</string>
+    <string name="gpu_usage_summary">GPU使用率を表示</string>
+    <string name="gpu_clock_speed">GPUクロック速度</string>
+    <string name="gpu_clock_speed_summary">現在のGPUクロック周波数を表示</string>
+    <string name="gpu_temperature">GPU温度</string>
+    <string name="gpu_temperature_summary">現在のGPU温度を表示</string>
+
+    <!-- Preferences - FPS Method -->
+    <string name="category_fps_method">FPS測定方法</string>
+    <string name="fps_display_mode">FPS表示モード</string>
+    <string name="fps_display_mode_summary">表示するFPS統計を選択</string>
+    <string name="select_fps_method">FPS方法を選択</string>
+    <string name="select_fps_method_summary">新しいAPIメソッド（デフォルト）とレガシーSysfsから選択</string>
+
+    <!-- Preferences - Customization -->
+    <string name="category_customization">カスタマイズ</string>
+    <string name="text_size">テキストサイズ</string>
+    <string name="text_size_summary">オーバーレイテキストのサイズを調整</string>
+    <string name="background_transparency">背景の透明度</string>
+    <string name="background_transparency_summary">背景の透明度を調整</string>
+    <string name="overlay_background_color">オーバーレイ背景色</string>
+    <string name="overlay_background_color_summary">オーバーレイ背景の色</string>
+    <string name="overlay_corner_radius">オーバーレイ角の半径</string>
+    <string name="overlay_corner_radius_summary">オーバーレイの角の丸みを調整</string>
+    <string name="overlay_padding">オーバーレイパディング</string>
+    <string name="overlay_padding_summary">統計の周りのスペースを調整</string>
+    <string name="item_spacing">アイテム間隔</string>
+    <string name="item_spacing_summary">オーバーレイ行間の間隔を調整</string>
+    <string name="update_interval">更新間隔</string>
+    <string name="update_interval_summary">オーバーレイ値の更新頻度を設定</string>
+    <string name="stat_title_color">統計タイトル色</string>
+    <string name="stat_title_color_summary">\'FPS\'、\'Temp\'、\'CPU\'などのテキストの色</string>
+    <string name="stat_value_color">統計値の色</string>
+    <string name="stat_value_color_summary">数値統計の色（例：\'29\'、\'32.0°C\'）</string>
+    <string name="overlay_font_style">オーバーレイフォントスタイル</string>
+    <string name="overlay_font_style_summary">オーバーレイテキストのカスタムフォントを選択</string>
+    <string name="overlay_position">オーバーレイ位置</string>
+    <string name="overlay_position_summary">画面上のオーバーレイの位置を選択</string>
+    <string name="overlay_format">オーバーレイ形式</string>
+    <string name="overlay_format_summary">完全表示または最小表示を選択</string>
+
+    <!-- Preferences - Split Config -->
+    <string name="category_split_config">分割設定</string>
+    <string name="split_mode">分割モード</string>
+    <string name="split_mode_summary">並列またはスタック配置を選択</string>
+
+    <!-- Preferences - Gesture Controls -->
+    <string name="category_gesture_controls">オーバーレイジェスチャー制御</string>
+    <string name="enable_single_tap_toggle">シングルタップで切り替えを有効にする</string>
+    <string name="enable_single_tap_toggle_summary">1回タップして完全形式と最小形式を切り替え</string>
+    <string name="single_tap_function">シングルタップ機能</string>
+    <string name="single_tap_function_summary">シングルタップ時に実行する操作を選択</string>
+    <string name="enable_double_tap_capture">ダブルタップでキャプチャを有効にする</string>
+    <string name="enable_double_tap_capture_summary">オーバーレイをダブルタップしてログキャプチャを開始/停止</string>
+    <string name="double_tap_function">ダブルタップ機能</string>
+    <string name="double_tap_function_summary">ダブルタップ時に実行する操作を選択</string>
+    <string name="enable_long_press">長押しを有効にする</string>
+    <string name="enable_long_press_summary">オーバーレイを長押ししてGameBar設定にアクセス</string>
+    <string name="long_press_function">長押し機能</string>
+    <string name="long_press_function_summary">長押し時に実行する操作を選択</string>
+    <string name="long_press_duration">長押し時間</string>
+    <string name="long_press_duration_summary">オーバーレイの長押しに必要な時間を設定</string>
+
+    <!-- Preferences - Per-App -->
+    <string name="category_per_app">アプリごとのGameBar</string>
+    <string name="auto_enable_gamebar">選択したアプリでGameBarを自動有効化</string>
+    <string name="auto_enable_gamebar_summary">オンにすると、メインスイッチがオフでも選択したアプリでGameBarが自動的に有効になります</string>
+    <string name="configure_apps">アプリを設定</string>
+    <string name="configure_apps_summary">GameBarを自動的に有効にするアプリを選択</string>
+
+    <!-- Menu Items -->
+    <string name="menu_log_monitor">ログモニター</string>
+    <string name="menu_open_external_log">外部ログを開く</string>
+    <string name="menu_open">開く</string>
+    <string name="menu_share">共有</string>
+    <string name="menu_export">エクスポート</string>
+    <string name="menu_delete">削除</string>
+    <string name="menu_logging_parameters">ロギングパラメータ</string>
+
+    <!-- Layout Strings -->
+    <string name="tab_global">グローバル</string>
+    <string name="tab_per_app">アプリごと</string>
+    <string name="btn_manual_logs">手動ログ</string>
+    <string name="btn_start_capture">キャプチャ開始</string>
+    <string name="btn_stop_capture">キャプチャ停止</string>
+    <string name="btn_capturing">キャプチャ中...</string>
+    <string name="btn_per_app_logging_active">アプリごとのロギング有効</string>
+    <string name="btn_enable_per_app_logging">アプリごとのロギングを有効化</string>
+    <string name="btn_no_apps_enabled">アプリが有効化されていません</string>
+    <string name="no_logs_available">ログがありません</string>
+    <string name="no_logs_hint">アプリごとのロギングを有効にし、アプリを使用してログを生成してください</string>
+    <string name="font_name_placeholder">フォント名</string>
+    <!-- Analytics Dialog -->
+    <string name="session_information">セッション情報</string>
+    <string name="fps_statistics">FPS統計</string>
+    <string name="max_fps_label">最大FPS:      0.0</string>
+    <string name="min_fps_label">最小FPS:      0.0</string>
+    <string name="avg_fps_label">平均FPS:      0.0</string>
+    <string name="variance_label">分散:     0.00</string>
+    <string name="std_dev_label">標準偏差:      0.00</string>
+    <string name="smoothness_label">滑らかさ:   0.0%%</string>
+    <string name="one_percent_low_label">1%% 低:       0.0 FPS</string>
+    <string name="zero_one_percent_low_label">0.1%% 低:     0.0 FPS</string>
+    <string name="cpu_statistics">CPU統計</string>
+    <string name="cpu_summary">CPUサマリー</string>
+    <string name="max_cpu_usage_label">最大使用率:    0%%</string>
+    <string name="min_cpu_usage_label">最小使用率:    0%%</string>
+    <string name="avg_cpu_usage_label">平均使用率:    0%%</string>
+    <string name="max_cpu_temp_label">最大温度:     0.0°C</string>
+    <string name="min_cpu_temp_label">最小温度:     0.0°C</string>
+    <string name="avg_cpu_temp_label">平均温度:     0.0°C</string>
+    <string name="gpu_statistics">GPU統計</string>
+    <string name="gpu_summary">GPUサマリー</string>
+    <string name="max_gpu_usage_label">最大使用率:    0%%</string>
+    <string name="min_gpu_usage_label">最小使用率:    0%%</string>
+    <string name="avg_gpu_usage_label">平均使用率:    0%%</string>
+    <string name="max_gpu_temp_label">最大温度:     0.0°C</string>
+    <string name="min_gpu_temp_label">最小温度:     0.0°C</string>
+    <string name="avg_gpu_temp_label">平均温度:     0.0°C</string>
+    <string name="max_gpu_clock_label">最大クロック:    0 MHz</string>
+    <string name="min_gpu_clock_label">最小クロック:    0 MHz</string>
+    <string name="avg_gpu_clock_label">平均クロック:    0 MHz</string>
+
+    <!-- Source Code Messages -->
+    <string name="unknown_app">不明なアプリ</string>
+    <string name="logs_for_app">%sのログ</string>
+    <string name="no_logs_for_app">%sのログがありません</string>
+    <string name="log_analytics">ログ分析</string>
+    <string name="analyzing_log">ログを分析中…</string>
+    <string name="analyzing_log_message">セッションデータを分析中です。お待ちください。</string>
+    <string name="failed_to_analyze_log">ログファイルの分析に失敗しました</string>
+    <string name="error_loading_logs">ログの読み込みエラー: %s</string>
+    <string name="saved_to_path">保存しました: %s</string>
+    <string name="failed_to_save">保存に失敗しました: %s</string>
+    <string name="graphics_ready_to_share">グラフィックスを共有する準備ができました！</string>
+    <string name="failed_to_share">共有に失敗しました: %s</string>
+    <string name="error_message">エラー: %s</string>
+    <string name="unable_to_open_guide">ユーザーガイドを開けません: %s</string>
+    <string name="file_picker_unavailable">ファイルピッカーが利用できません: %s</string>
+    <string name="error_opening_file">ファイルを開くエラー: %s</string>
+    <string name="external_log">外部ログ</string>
+
+    <!-- Additional Toast Messages -->
+    <string name="error_initializing_log_monitor">ログモニターの初期化エラー: %s</string>
+    <string name="per_app_logging_enabled_message">アプリごとのロギングが有効 - 有効なアプリがアクティブになると、ログが自動的に開始されます</string>
+    <string name="stopped_logging_exported">ロギングを停止してデータをエクスポートしました</string>
+    <string name="stopped_per_app_logging">アプリごとのロギングを停止しました</string>
+    <string name="no_manual_logs_found">手動ログが見つかりません</string>
+    <string name="file_location">ファイルの場所: %s</string>
+    <string name="file_saved_at">保存先: %s</string>
+    <string name="log_file_deleted">ログファイルを削除しました</string>
+    <string name="failed_to_delete_log">ログファイルの削除に失敗しました</string>
+    <string name="error_deleting_file">ファイルの削除エラー: %s</string>
+    <string name="error_loading_apps">アプリの読み込みエラー: %s</string>
+    <string name="gamebar_logging_enabled_overlay_off">%s: GameBarロギングが有効ですが、GameBarオーバーレイがオフです。ログを収集するにはGameBarをオンにしてください。</string>
+    <string name="gamebar_logging_enabled_overlay_off_generic">GameBarロギングが有効ですが、GameBarオーバーレイがオフです。ログを収集するにはGameBarをオンにしてください。</string>
+    <string name="app_gamebar_log_started">%s GameBarログを開始しました</string>
+    <string name="package_gamebar_log_started">%s GameBarログを開始しました</string>
+    <string name="app_gamebar_log_ended">%s GameBarログを終了しました</string>
+    <string name="package_gamebar_log_ended">%s GameBarログを終了しました</string>
+    <string name="cannot_start_logging_overlay_off">ロギングを開始できません - GameBarオーバーレイがオフです</string>
+    <string name="manual_logging_started">%s: 手動ロギングを開始しました</string>
+    <string name="manual_logging_started_package">%sの手動ロギングを開始しました</string>
+    <string name="auto_logging_enabled_message">このアプリは自動ロギングが有効です。ログは自動的に保存されます。</string>
+    <string name="manual_logging_stopped_saved">手動ロギングを停止して保存しました</string>
+    <string name="capture_stopped_exported">キャプチャを停止してデータをエクスポートしました</string>
+    <string name="capture_started">キャプチャを開始しました</string>
+    <string name="overlay_format_changed">オーバーレイ形式: %s</string>
+    <string name="failed_to_load_analytics">分析データの読み込みに失敗しました</string>
+    <string name="screenshot_taken">スクリーンショットを取得しました</string>
+    <string name="failed_to_take_screenshot">スクリーンショットの取得に失敗しました</string>
+    <string name="screen_recorder_not_available">画面録画が利用できません</string>
+    <string name="screen_recording_started">画面録画を開始しました</string>
+    <string name="screen_recording_stopped">画面録画を停止しました</string>
+    <string name="failed_to_toggle_screen_recording">画面録画の切り替えに失敗しました</string>
+
+    <!-- Dialog Titles and Messages -->
+    <string name="dialog_session_analytics">セッション分析</string>
+    <string name="dialog_manual_logs">手動ログ</string>
+    <string name="dialog_delete_log_title">ログファイルを削除</string>
+    <string name="dialog_delete_log_message">このログファイルを削除してもよろしいですか？\n\n%s</string>
+    <string name="dialog_logging_parameters_title">ロギングパラメータ</string>
+    <string name="dialog_logging_parameters_message">ログに含めるパラメータを選択してください：</string>
+    <string name="button_actions">アクション</string>
+    <string name="button_close">閉じる</string>
+    <string name="button_delete">削除</string>
+    <string name="button_cancel">キャンセル</string>
+    <string name="button_apply">適用</string>
+    <string name="button_reset">リセット</string>
+    <!-- Hints and Content Descriptions -->
+    <string name="hint_search_logs">ログを検索...</string>
+    <string name="hint_search_app_logs">%sのログを検索...</string>
+    <string name="hint_search_apps">アプリを検索...</string>
+    <string name="hint_search_fonts">フォントを検索...</string>
+    <string name="content_desc_expand_collapse">展開/折りたたみ</string>
+
+</resources>

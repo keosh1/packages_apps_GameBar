@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2025 kenway214
+     SPDX-FileCopyrightText: 2025 keosh1
+     SPDX-License-Identifier: Apache-2.0
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- GameBar -->
+    <string name="tile_add">إضافة بلاطة</string>
+    <string name="tile_added">تمت إضافة البلاطة</string>
+    <string name="tile_not_added">لم تتم إضافة البلاطة</string>
+    <string name="tile_already_added">البلاطة مضافة بالفعل</string>
+    <string name="tile_on">تشغيل</string>
+    <string name="tile_off">إيقاف</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">القيمة: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">افتراضياً</string>
+    <string name="custom_seekbar_default_value_to_set">القيمة الافتراضية: <xliff:g id="v">%s</xliff:g>\nاضغط مطولاً للتعيين</string>
+    <string name="custom_seekbar_default_value_is_set">تم تعيين القيمة الافتراضية</string>
+
+    <!-- GameBar Overlay -->
+    <string name="game_bar_summary">تمكين تراكب النظام (FPS، درجة الحرارة، إلخ)</string>
+    <string name="overlay_permission_required">مطلوب إذن التراكب</string>
+    <string name="overlay_permission_granted">تم منح إذن التراكب</string>
+    <string name="overlay_permission_denied">تم رفض إذن التراكب</string>
+    <string name="game_bar_tile_description">تبديل تراكب اللعبة</string>
+    <string name="game_bar_user_guide">دليل المستخدم</string>
+
+    <!-- ColorPicker -->
+    <string name="gamebar_default_title">اختر لوناً</string>
+    <string name="gamebar_presets">الإعدادات المسبقة</string>
+    <string name="gamebar_custom">مخصص</string>
+    <string name="gamebar_select">اختيار</string>
+    <string name="gamebar_transparency">الشفافية</string>
+
+    <!-- Preferences - Main -->
+    <string name="enable_gamebar_overlay">تمكين تراكب GameBar</string>
+
+    <!-- Preferences - Overlay Features -->
+    <string name="category_overlay_features">ميزات التراكب</string>
+    <string name="fps_overlay">تراكب FPS</string>
+    <string name="fps_overlay_summary">عرض FPS الحالي على الشاشة</string>
+    <string name="frame_time">وقت الإطار</string>
+    <string name="frame_time_summary">عرض وقت الإطار بالمللي ثانية</string>
+    <string name="device_temperature">درجة حرارة الجهاز</string>
+    <string name="device_temperature_summary">عرض درجة حرارة الجهاز</string>
+    <string name="cpu_usage">استخدام المعالج</string>
+    <string name="cpu_usage_summary">عرض نسبة استخدام المعالج الحالية</string>
+    <string name="cpu_clock_speeds">سرعات ساعة المعالج</string>
+    <string name="cpu_clock_speeds_summary">عرض سرعات ساعة المعالج الحالية لكل نواة</string>
+    <string name="cpu_temperature">درجة حرارة المعالج</string>
+    <string name="cpu_temperature_summary">عرض درجة حرارة المعالج</string>
+    <string name="ram_usage">استخدام الذاكرة</string>
+    <string name="ram_usage_summary">عرض استخدام الذاكرة الحالي بالميجابايت</string>
+    <string name="ram_frequency">تردد الذاكرة</string>
+    <string name="ram_frequency_summary">عرض تردد الذاكرة الحالي (الناقل) بالجيجاهرتز</string>
+    <string name="ram_temperature">درجة حرارة الذاكرة</string>
+    <string name="ram_temperature_summary">عرض درجة حرارة الذاكرة الحالية</string>
+    <string name="gpu_usage">استخدام معالج الرسوميات</string>
+    <string name="gpu_usage_summary">عرض نسبة استخدام معالج الرسوميات</string>
+    <string name="gpu_clock_speed">سرعة ساعة معالج الرسوميات</string>
+    <string name="gpu_clock_speed_summary">عرض تردد ساعة معالج الرسوميات الحالي</string>
+    <string name="gpu_temperature">درجة حرارة معالج الرسوميات</string>
+    <string name="gpu_temperature_summary">عرض درجة حرارة معالج الرسوميات الحالية</string>
+
+    <!-- Preferences - FPS Method -->
+    <string name="category_fps_method">طريقة قياس FPS</string>
+    <string name="fps_display_mode">وضع عرض FPS</string>
+    <string name="fps_display_mode_summary">اختر إحصائيات FPS المراد عرضها</string>
+    <string name="select_fps_method">اختر طريقة FPS</string>
+    <string name="select_fps_method_summary">اختر بين طريقة API الجديدة (افتراضي) و Sysfs القديم</string>
+
+    <!-- Preferences - Customization -->
+    <string name="category_customization">التخصيص</string>
+    <string name="text_size">حجم النص</string>
+    <string name="text_size_summary">ضبط حجم نص التراكب</string>
+    <string name="background_transparency">شفافية الخلفية</string>
+    <string name="background_transparency_summary">ضبط شفافية الخلفية</string>
+    <string name="overlay_background_color">لون خلفية التراكب</string>
+    <string name="overlay_background_color_summary">لون خلفية التراكب</string>
+    <string name="overlay_corner_radius">نصف قطر زاوية التراكب</string>
+    <string name="overlay_corner_radius_summary">ضبط مدى استدارة زوايا التراكب</string>
+    <string name="overlay_padding">حشوة التراكب</string>
+    <string name="overlay_padding_summary">ضبط المسافة حول الإحصائيات</string>
+    <string name="item_spacing">تباعد العناصر</string>
+    <string name="item_spacing_summary">ضبط التباعد بين خطوط التراكب</string>
+    <string name="update_interval">فاصل التحديث</string>
+    <string name="update_interval_summary">تعيين معدل تحديث قيم التراكب</string>
+    <string name="stat_title_color">لون عنوان الإحصائية</string>
+    <string name="stat_title_color_summary">لون نص \'FPS\'، \'Temp\'، \'CPU\'، إلخ</string>
+    <string name="stat_value_color">لون قيمة الإحصائية</string>
+    <string name="stat_value_color_summary">لون الإحصائيات الرقمية (مثل \'29\'، \'32.0°C\')</string>
+    <string name="overlay_font_style">نمط خط التراكب</string>
+    <string name="overlay_font_style_summary">اختر خطاً مخصصاً لنص التراكب</string>
+    <string name="overlay_position">موضع التراكب</string>
+    <string name="overlay_position_summary">اختر موضع التراكب على الشاشة</string>
+    <string name="overlay_format">تنسيق التراكب</string>
+    <string name="overlay_format_summary">اختر بين العرض الكامل أو الأدنى</string>
+
+    <!-- Preferences - Split Config -->
+    <string name="category_split_config">إعداد التقسيم</string>
+    <string name="split_mode">وضع التقسيم</string>
+    <string name="split_mode_summary">اختر ترتيب جنباً إلى جنب أو مكدس</string>
+
+    <!-- Preferences - Gesture Controls -->
+    <string name="category_gesture_controls">عناصر التحكم بالإيماءات للتراكب</string>
+    <string name="enable_single_tap_toggle">تمكين النقر الفردي للتبديل</string>
+    <string name="enable_single_tap_toggle_summary">انقر مرة للتبديل بين تنسيقات التراكب الكاملة والأدنى</string>
+    <string name="single_tap_function">وظيفة النقر الفردي</string>
+    <string name="single_tap_function_summary">اختر ما يحدث عند النقر مرة واحدة</string>
+    <string name="enable_double_tap_capture">تمكين النقر المزدوج للالتقاط</string>
+    <string name="enable_double_tap_capture_summary">انقر مرتين على التراكب لبدء/إيقاف التقاط السجلات</string>
+    <string name="double_tap_function">وظيفة النقر المزدوج</string>
+    <string name="double_tap_function_summary">اختر ما يحدث عند النقر مرتين</string>
+    <string name="enable_long_press">تمكين الضغط الطويل</string>
+    <string name="enable_long_press_summary">اضغط طويلاً على التراكب للوصول إلى إعدادات GameBar</string>
+    <string name="long_press_function">وظيفة الضغط الطويل</string>
+    <string name="long_press_function_summary">اختر ما يحدث عند الضغط الطويل</string>
+    <string name="long_press_duration">مدة الضغط الطويل</string>
+    <string name="long_press_duration_summary">تعيين المدة المطلوبة للضغط الطويل على التراكب</string>
+
+    <!-- Preferences - Per-App -->
+    <string name="category_per_app">GameBar لكل تطبيق</string>
+    <string name="auto_enable_gamebar">تمكين GameBar تلقائياً للتطبيقات المحددة</string>
+    <string name="auto_enable_gamebar_summary">إذا تم التشغيل، ستقوم التطبيقات المحددة بتمكين GameBar تلقائياً حتى لو كان المفتاح الرئيسي متوقفاً</string>
+    <string name="configure_apps">تكوين التطبيقات</string>
+    <string name="configure_apps_summary">اختر التطبيقات التي ستمكن GameBar تلقائياً</string>
+
+    <!-- Menu Items -->
+    <string name="menu_log_monitor">مراقب السجلات</string>
+    <string name="menu_open_external_log">فتح سجل خارجي</string>
+    <string name="menu_open">فتح</string>
+    <string name="menu_share">مشاركة</string>
+    <string name="menu_export">تصدير</string>
+    <string name="menu_delete">حذف</string>
+    <string name="menu_logging_parameters">معاملات التسجيل</string>
+
+    <!-- Layout Strings -->
+    <string name="tab_global">عام</string>
+    <string name="tab_per_app">لكل تطبيق</string>
+    <string name="btn_manual_logs">سجلات يدوية</string>
+    <string name="btn_start_capture">بدء الالتقاط</string>
+    <string name="btn_stop_capture">إيقاف الالتقاط</string>
+    <string name="btn_capturing">جارٍ الالتقاط...</string>
+    <string name="btn_per_app_logging_active">تسجيل لكل تطبيق نشط</string>
+    <string name="btn_enable_per_app_logging">تمكين التسجيل لكل تطبيق</string>
+    <string name="btn_no_apps_enabled">لا توجد تطبيقات ممكّنة</string>
+    <string name="no_logs_available">لا توجد سجلات متاحة</string>
+    <string name="no_logs_hint">قم بتمكين التسجيل لكل تطبيق واستخدم التطبيق لإنشاء السجلات</string>
+    <string name="font_name_placeholder">اسم الخط</string>
+    <!-- Analytics Dialog -->
+    <string name="session_information">معلومات الجلسة</string>
+    <string name="fps_statistics">إحصائيات FPS</string>
+    <string name="max_fps_label">أقصى FPS:      0.0</string>
+    <string name="min_fps_label">أدنى FPS:      0.0</string>
+    <string name="avg_fps_label">متوسط FPS:      0.0</string>
+    <string name="variance_label">التباين:     0.00</string>
+    <string name="std_dev_label">الانحراف المعياري:      0.00</string>
+    <string name="smoothness_label">السلاسة:   0.0%%</string>
+    <string name="one_percent_low_label">1%% منخفض:       0.0 FPS</string>
+    <string name="zero_one_percent_low_label">0.1%% منخفض:     0.0 FPS</string>
+    <string name="cpu_statistics">إحصائيات المعالج</string>
+    <string name="cpu_summary">ملخص المعالج</string>
+    <string name="max_cpu_usage_label">أقصى استخدام:    0%%</string>
+    <string name="min_cpu_usage_label">أدنى استخدام:    0%%</string>
+    <string name="avg_cpu_usage_label">متوسط الاستخدام:    0%%</string>
+    <string name="max_cpu_temp_label">أقصى حرارة:     0.0°C</string>
+    <string name="min_cpu_temp_label">أدنى حرارة:     0.0°C</string>
+    <string name="avg_cpu_temp_label">متوسط الحرارة:     0.0°C</string>
+    <string name="gpu_statistics">إحصائيات معالج الرسوميات</string>
+    <string name="gpu_summary">ملخص معالج الرسوميات</string>
+    <string name="max_gpu_usage_label">أقصى استخدام:    0%%</string>
+    <string name="min_gpu_usage_label">أدنى استخدام:    0%%</string>
+    <string name="avg_gpu_usage_label">متوسط الاستخدام:    0%%</string>
+    <string name="max_gpu_temp_label">أقصى حرارة:     0.0°C</string>
+    <string name="min_gpu_temp_label">أدنى حرارة:     0.0°C</string>
+    <string name="avg_gpu_temp_label">متوسط الحرارة:     0.0°C</string>
+    <string name="max_gpu_clock_label">أقصى تردد:    0 MHz</string>
+    <string name="min_gpu_clock_label">أدنى تردد:    0 MHz</string>
+    <string name="avg_gpu_clock_label">متوسط التردد:    0 MHz</string>
+
+    <!-- Source Code Messages -->
+    <string name="unknown_app">تطبيق غير معروف</string>
+    <string name="logs_for_app">سجلات لـ %s</string>
+    <string name="no_logs_for_app">لا توجد سجلات متاحة لـ %s</string>
+    <string name="log_analytics">تحليلات السجل</string>
+    <string name="analyzing_log">تحليل السجل…</string>
+    <string name="analyzing_log_message">يرجى الانتظار بينما نحلل بيانات الجلسة.</string>
+    <string name="failed_to_analyze_log">فشل تحليل ملف السجل</string>
+    <string name="error_loading_logs">خطأ في تحميل السجلات: %s</string>
+    <string name="saved_to_path">تم الحفظ: %s</string>
+    <string name="failed_to_save">فشل الحفظ: %s</string>
+    <string name="graphics_ready_to_share">الرسومات جاهزة للمشاركة!</string>
+    <string name="failed_to_share">فشلت المشاركة: %s</string>
+    <string name="error_message">خطأ: %s</string>
+    <string name="unable_to_open_guide">تعذر فتح دليل المستخدم: %s</string>
+    <string name="file_picker_unavailable">منتقي الملفات غير متاح: %s</string>
+    <string name="error_opening_file">خطأ في فتح الملف: %s</string>
+    <string name="external_log">سجل خارجي</string>
+
+    <!-- Additional Toast Messages -->
+    <string name="error_initializing_log_monitor">خطأ في تهيئة مراقب السجل: %s</string>
+    <string name="per_app_logging_enabled_message">تم تمكين التسجيل لكل تطبيق - ستبدأ السجلات تلقائيًا عند تنشيط التطبيقات الممكّنة</string>
+    <string name="stopped_logging_exported">تم إيقاف التسجيل وتصدير البيانات</string>
+    <string name="stopped_per_app_logging">تم إيقاف التسجيل لكل تطبيق</string>
+    <string name="no_manual_logs_found">لم يتم العثور على سجلات يدوية</string>
+    <string name="file_location">موقع الملف: %s</string>
+    <string name="file_saved_at">تم الحفظ في: %s</string>
+    <string name="log_file_deleted">تم حذف ملف السجل</string>
+    <string name="failed_to_delete_log">فشل حذف ملف السجل</string>
+    <string name="error_deleting_file">خطأ في حذف الملف: %s</string>
+    <string name="error_loading_apps">خطأ في تحميل التطبيقات: %s</string>
+    <string name="gamebar_logging_enabled_overlay_off">%s: تم تمكين تسجيل GameBar لكن تراكب GameBar مغلق. قم بتشغيل GameBar لجمع السجلات.</string>
+    <string name="gamebar_logging_enabled_overlay_off_generic">تم تمكين تسجيل GameBar لكن تراكب GameBar مغلق. قم بتشغيل GameBar لجمع السجلات.</string>
+    <string name="app_gamebar_log_started">بدأ سجل GameBar لـ %s</string>
+    <string name="package_gamebar_log_started">بدأ سجل GameBar لـ %s</string>
+    <string name="app_gamebar_log_ended">انتهى سجل GameBar لـ %s</string>
+    <string name="package_gamebar_log_ended">انتهى سجل GameBar لـ %s</string>
+    <string name="cannot_start_logging_overlay_off">لا يمكن بدء التسجيل - تراكب GameBar مغلق</string>
+    <string name="manual_logging_started">%s: بدأ التسجيل اليدوي</string>
+    <string name="manual_logging_started_package">بدأ التسجيل اليدوي لـ %s</string>
+    <string name="auto_logging_enabled_message">هذا التطبيق لديه تسجيل تلقائي ممكّن. يتم حفظ السجلات تلقائيًا.</string>
+    <string name="manual_logging_stopped_saved">تم إيقاف التسجيل اليدوي وحفظه</string>
+    <string name="capture_stopped_exported">تم إيقاف الالتقاط وتصدير البيانات</string>
+    <string name="capture_started">بدأ الالتقاط</string>
+    <string name="overlay_format_changed">تنسيق التراكب: %s</string>
+    <string name="failed_to_load_analytics">فشل تحميل بيانات التحليلات</string>
+    <string name="screenshot_taken">تم التقاط لقطة الشاشة</string>
+    <string name="failed_to_take_screenshot">فشل التقاط لقطة الشاشة</string>
+    <string name="screen_recorder_not_available">مسجل الشاشة غير متاح</string>
+    <string name="screen_recording_started">بدأ تسجيل الشاشة</string>
+    <string name="screen_recording_stopped">توقف تسجيل الشاشة</string>
+    <string name="failed_to_toggle_screen_recording">فشل تبديل تسجيل الشاشة</string>
+
+    <!-- Dialog Titles and Messages -->
+    <string name="dialog_session_analytics">تحليلات الجلسة</string>
+    <string name="dialog_manual_logs">السجلات اليدوية</string>
+    <string name="dialog_delete_log_title">حذف ملف السجل</string>
+    <string name="dialog_delete_log_message">هل أنت متأكد من حذف ملف السجل هذا؟\n\n%s</string>
+    <string name="dialog_logging_parameters_title">معلمات التسجيل</string>
+    <string name="dialog_logging_parameters_message">حدد المعلمات المراد تضمينها في السجلات:</string>
+    <string name="button_actions">إجراءات</string>
+    <string name="button_close">إغلاق</string>
+    <string name="button_delete">حذف</string>
+    <string name="button_cancel">إلغاء</string>
+    <string name="button_apply">تطبيق</string>
+    <string name="button_reset">إعادة تعيين</string>
+    <!-- Hints and Content Descriptions -->
+    <string name="hint_search_logs">البحث في السجلات...</string>
+    <string name="hint_search_app_logs">البحث في سجلات %s...</string>
+    <string name="hint_search_apps">البحث عن التطبيقات...</string>
+    <string name="hint_search_fonts">البحث عن الخطوط...</string>
+    <string name="content_desc_expand_collapse">توسيع/طي</string>
+
+</resources>

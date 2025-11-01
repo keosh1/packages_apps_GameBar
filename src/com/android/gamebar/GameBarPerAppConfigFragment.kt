@@ -47,7 +47,7 @@ class GameBarPerAppConfigFragment : SettingsBasePreferenceFragment() {
         layout.orientation = LinearLayout.VERTICAL
         searchBar = EditText(context).apply {
             id = View.generateViewId()
-            hint = "Search apps..."
+            hint = getString(R.string.hint_search_apps)
             inputType = android.text.InputType.TYPE_CLASS_TEXT
             setBackgroundResource(R.drawable.bg_search_rounded)
             setPadding(24, 24, 24, 24)

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2025 kenway214
+     SPDX-FileCopyrightText: 2025 keosh1
+     SPDX-License-Identifier: Apache-2.0
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- GameBar -->
+    <string name="tile_add">Ajouter une tuile</string>
+    <string name="tile_added">Tuile ajoutée</string>
+    <string name="tile_not_added">Tuile non ajoutée</string>
+    <string name="tile_already_added">Tuile déjÃ  ajoutée</string>
+    <string name="tile_on">Activé</string>
+    <string name="tile_off">Désactivé</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Valeur : <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">par défaut</string>
+    <string name="custom_seekbar_default_value_to_set">Valeur par défaut : <xliff:g id="v">%s</xliff:g>\nAppui long pour définir</string>
+    <string name="custom_seekbar_default_value_is_set">Valeur par défaut définie</string>
+
+    <!-- GameBar Overlay -->
+    <string name="game_bar_summary">Activer la superposition système (FPS, Temp, etc.)</string>
+    <string name="overlay_permission_required">Permission de superposition requise</string>
+    <string name="overlay_permission_granted">Permission de superposition accordée</string>
+    <string name="overlay_permission_denied">Permission de superposition refusée</string>
+    <string name="game_bar_tile_description">Basculer la superposition de jeu</string>
+    <string name="game_bar_user_guide">Guide Utilisateur</string>
+
+    <!-- ColorPicker -->
+    <string name="gamebar_default_title">Sélectionner une Couleur</string>
+    <string name="gamebar_presets">Préréglages</string>
+    <string name="gamebar_custom">Personnalisé</string>
+    <string name="gamebar_select">Sélectionner</string>
+    <string name="gamebar_transparency">Transparence</string>
+
+    <!-- Preferences - Main -->
+    <string name="enable_gamebar_overlay">Activer la Superposition GameBar</string>
+
+    <!-- Preferences - Overlay Features -->
+    <string name="category_overlay_features">Fonctionnalités de Superposition</string>
+    <string name="fps_overlay">Superposition FPS</string>
+    <string name="fps_overlay_summary">Afficher les FPS actuels Ã  l\'écran</string>
+    <string name="frame_time">Temps de Trame</string>
+    <string name="frame_time_summary">Afficher le temps de trame en millisecondes</string>
+    <string name="device_temperature">Température de l\'Appareil</string>
+    <string name="device_temperature_summary">Afficher la température de l\'appareil</string>
+    <string name="cpu_usage">Utilisation CPU</string>
+    <string name="cpu_usage_summary">Afficher le pourcentage d\'utilisation actuel du CPU</string>
+    <string name="cpu_clock_speeds">Vitesses d\'Horloge CPU</string>
+    <string name="cpu_clock_speeds_summary">Afficher les vitesses d\'horloge actuelles du CPU pour chaque cÅ“ur</string>
+    <string name="cpu_temperature">Température CPU</string>
+    <string name="cpu_temperature_summary">Afficher la température du CPU</string>
+    <string name="ram_usage">Utilisation RAM</string>
+    <string name="ram_usage_summary">Afficher l\'utilisation actuelle de la RAM en Mo</string>
+    <string name="ram_frequency">Fréquence RAM</string>
+    <string name="ram_frequency_summary">Afficher la fréquence actuelle de la RAM (bus) en GHz</string>
+    <string name="ram_temperature">Température RAM</string>
+    <string name="ram_temperature_summary">Afficher la température actuelle de la RAM</string>
+    <string name="gpu_usage">Utilisation GPU</string>
+    <string name="gpu_usage_summary">Afficher le pourcentage d\'utilisation du GPU</string>
+    <string name="gpu_clock_speed">Vitesse d\'Horloge GPU</string>
+    <string name="gpu_clock_speed_summary">Afficher la fréquence d\'horloge actuelle du GPU</string>
+    <string name="gpu_temperature">Température GPU</string>
+    <string name="gpu_temperature_summary">Afficher la température actuelle du GPU</string>
+
+    <!-- Preferences - FPS Method -->
+    <string name="category_fps_method">Méthode de Mesure FPS</string>
+    <string name="fps_display_mode">Mode d\'Affichage FPS</string>
+    <string name="fps_display_mode_summary">Choisir quelles statistiques FPS afficher</string>
+    <string name="select_fps_method">Sélectionner la Méthode FPS</string>
+    <string name="select_fps_method_summary">Choisir entre la nouvelle méthode API (par défaut) et Sysfs hérité</string>
+
+    <!-- Preferences - Customization -->
+    <string name="category_customization">Personnalisation</string>
+    <string name="text_size">Taille du Texte</string>
+    <string name="text_size_summary">Ajuster la taille du texte de superposition</string>
+    <string name="background_transparency">Transparence de l\'Arrière-plan</string>
+    <string name="background_transparency_summary">Ajuster la transparence de l\'arrière-plan</string>
+    <string name="overlay_background_color">Couleur d\'Arrière-plan de Superposition</string>
+    <string name="overlay_background_color_summary">Couleur pour l\'arrière-plan de superposition</string>
+    <string name="overlay_corner_radius">Rayon de Coin de Superposition</string>
+    <string name="overlay_corner_radius_summary">Ajuster l\'arrondi des coins de superposition</string>
+    <string name="overlay_padding">Rembourrage de Superposition</string>
+    <string name="overlay_padding_summary">Ajuster l\'espace autour des statistiques</string>
+    <string name="item_spacing">Espacement des Éléments</string>
+    <string name="item_spacing_summary">Ajuster l\'espacement entre les lignes de superposition</string>
+    <string name="update_interval">Intervalle de Mise Ã  Jour</string>
+    <string name="update_interval_summary">Définir la fréquence de mise Ã  jour des valeurs de superposition</string>
+    <string name="stat_title_color">Couleur du Titre de Statistique</string>
+    <string name="stat_title_color_summary">Couleur pour le texte \'FPS\', \'Temp\', \'CPU\', etc.</string>
+    <string name="stat_value_color">Couleur de Valeur de Statistique</string>
+    <string name="stat_value_color_summary">Couleur pour les statistiques numériques (ex. \'29\', \'32.0°C\')</string>
+    <string name="overlay_font_style">Style de Police de Superposition</string>
+    <string name="overlay_font_style_summary">Choisir une police personnalisée pour le texte de superposition</string>
+    <string name="overlay_position">Position de Superposition</string>
+    <string name="overlay_position_summary">Sélectionner la position de la superposition Ã  l\'écran</string>
+    <string name="overlay_format">Format de Superposition</string>
+    <string name="overlay_format_summary">Choisir entre affichage complet ou minimal</string>
+
+    <!-- Preferences - Split Config -->
+    <string name="category_split_config">Configuration de Division</string>
+    <string name="split_mode">Mode de Division</string>
+    <string name="split_mode_summary">Choisir une disposition côte Ã  côte ou empilée</string>
+
+    <!-- Preferences - Gesture Controls -->
+    <string name="category_gesture_controls">Contrôles de Gestes de Superposition</string>
+    <string name="enable_single_tap_toggle">Activer le Tapotement Simple pour Basculer</string>
+    <string name="enable_single_tap_toggle_summary">Tapotez une fois pour basculer entre les formats de superposition complet et minimal</string>
+    <string name="single_tap_function">Fonction de Tapotement Simple</string>
+    <string name="single_tap_function_summary">Choisir ce qui se produit lors d\'un tapotement simple</string>
+    <string name="enable_double_tap_capture">Activer le Double Tapotement pour Capturer</string>
+    <string name="enable_double_tap_capture_summary">Double-tapotez sur la superposition pour démarrer/arrÃªter la capture de journaux</string>
+    <string name="double_tap_function">Fonction de Double Tapotement</string>
+    <string name="double_tap_function_summary">Choisir ce qui se produit lors d\'un double tapotement</string>
+    <string name="enable_long_press">Activer l\'Appui Long</string>
+    <string name="enable_long_press_summary">Appui long sur la superposition pour accéder aux paramètres GameBar</string>
+    <string name="long_press_function">Fonction d\'Appui Long</string>
+    <string name="long_press_function_summary">Choisir ce qui se produit lors d\'un appui long</string>
+    <string name="long_press_duration">Durée d\'Appui Long</string>
+    <string name="long_press_duration_summary">Définir la durée requise pour l\'appui long sur la superposition</string>
+
+    <!-- Preferences - Per-App -->
+    <string name="category_per_app">GameBar par Application</string>
+    <string name="auto_enable_gamebar">Activer Automatiquement GameBar pour les Applications Sélectionnées</string>
+    <string name="auto_enable_gamebar_summary">Si activé, les applications sélectionnées activeront GameBar automatiquement mÃªme si l\'interrupteur principal est désactivé</string>
+    <string name="configure_apps">Configurer les Applications</string>
+    <string name="configure_apps_summary">Choisir quelles applications activeront GameBar automatiquement</string>
+
+    <!-- Menu Items -->
+    <string name="menu_log_monitor">Moniteur de Journaux</string>
+    <string name="menu_open_external_log">Ouvrir Journal Externe</string>
+    <string name="menu_open">Ouvrir</string>
+    <string name="menu_share">Partager</string>
+    <string name="menu_export">Exporter</string>
+    <string name="menu_delete">Supprimer</string>
+    <string name="menu_logging_parameters">Paramètres de Journalisation</string>
+
+    <!-- Layout Strings -->
+    <string name="tab_global">Global</string>
+    <string name="tab_per_app">Par Application</string>
+    <string name="btn_manual_logs">Journaux Manuels</string>
+    <string name="btn_start_capture">Démarrer la Capture</string>
+    <string name="btn_stop_capture">Arrêter la Capture</string>
+    <string name="btn_capturing">Capture en cours...</string>
+    <string name="btn_per_app_logging_active">Journalisation par Application Active</string>
+    <string name="btn_enable_per_app_logging">Activer la Journalisation par Application</string>
+    <string name="btn_no_apps_enabled">Aucune Application Activée</string>
+    <string name="no_logs_available">Aucun journal disponible</string>
+    <string name="no_logs_hint">Activez la journalisation par application et utilisez l\'application pour générer des journaux</string>
+    <string name="font_name_placeholder">Nom de Police</string>
+    <!-- Analytics Dialog -->
+    <string name="session_information">Informations de Session</string>
+    <string name="fps_statistics">STATISTIQUES FPS</string>
+    <string name="max_fps_label">FPS Max :      0.0</string>
+    <string name="min_fps_label">FPS Min :      0.0</string>
+    <string name="avg_fps_label">FPS Moy :      0.0</string>
+    <string name="variance_label">Variance :     0.00</string>
+    <string name="std_dev_label">Écart Type :      0.00</string>
+    <string name="smoothness_label">Fluidité :   0.0%%</string>
+    <string name="one_percent_low_label">1%% Bas :       0.0 FPS</string>
+    <string name="zero_one_percent_low_label">0.1%% Bas :     0.0 FPS</string>
+    <string name="cpu_statistics">STATISTIQUES CPU</string>
+    <string name="cpu_summary">RÉSUMÉ CPU</string>
+    <string name="max_cpu_usage_label">Util. Max :    0%%</string>
+    <string name="min_cpu_usage_label">Util. Min :    0%%</string>
+    <string name="avg_cpu_usage_label">Util. Moy :    0%%</string>
+    <string name="max_cpu_temp_label">Temp Max :     0.0°C</string>
+    <string name="min_cpu_temp_label">Temp Min :     0.0°C</string>
+    <string name="avg_cpu_temp_label">Temp Moy :     0.0°C</string>
+    <string name="gpu_statistics">STATISTIQUES GPU</string>
+    <string name="gpu_summary">RÉSUMÉ GPU</string>
+    <string name="max_gpu_usage_label">Util. Max :    0%%</string>
+    <string name="min_gpu_usage_label">Util. Min :    0%%</string>
+    <string name="avg_gpu_usage_label">Util. Moy :    0%%</string>
+    <string name="max_gpu_temp_label">Temp Max :     0.0°C</string>
+    <string name="min_gpu_temp_label">Temp Min :     0.0°C</string>
+    <string name="avg_gpu_temp_label">Temp Moy :     0.0°C</string>
+    <string name="max_gpu_clock_label">Horloge Max :    0 MHz</string>
+    <string name="min_gpu_clock_label">Horloge Min :    0 MHz</string>
+    <string name="avg_gpu_clock_label">Horloge Moy :    0 MHz</string>
+
+    <!-- Source Code Messages -->
+    <string name="unknown_app">Application Inconnue</string>
+    <string name="logs_for_app">Journaux pour %s</string>
+    <string name="no_logs_for_app">Aucun journal disponible pour %s</string>
+    <string name="log_analytics">Analyse de Journaux</string>
+    <string name="analyzing_log">Analyse du Journal€¦</string>
+    <string name="analyzing_log_message">Veuillez patienter pendant que nous analysons les données de session.</string>
+    <string name="failed_to_analyze_log">Échec de l\'analyse du fichier journal</string>
+    <string name="error_loading_logs">Erreur lors du chargement des journaux : %s</string>
+    <string name="saved_to_path">Enregistré : %s</string>
+    <string name="failed_to_save">Échec de l\'enregistrement : %s</string>
+    <string name="graphics_ready_to_share">Graphiques prÃªts Ã  partager !</string>
+    <string name="failed_to_share">Échec du partage : %s</string>
+    <string name="error_message">Erreur : %s</string>
+    <string name="unable_to_open_guide">Impossible d\'ouvrir le guide utilisateur : %s</string>
+    <string name="file_picker_unavailable">Sélecteur de fichiers non disponible : %s</string>
+    <string name="error_opening_file">Erreur lors de l\'ouverture du fichier : %s</string>
+    <string name="external_log">Journal Externe</string>
+
+    <!-- Additional Toast Messages -->
+    <string name="error_initializing_log_monitor">Erreur lors de l\'initialisation du moniteur de journaux : %s</string>
+    <string name="per_app_logging_enabled_message">Journalisation par application activée - les journaux démarreront automatiquement lorsque les applications activées deviennent actives</string>
+    <string name="stopped_logging_exported">Journalisation arrÃªtée et données exportées</string>
+    <string name="stopped_per_app_logging">Journalisation par application arrÃªtée</string>
+    <string name="no_manual_logs_found">Aucun journal manuel trouvé</string>
+    <string name="file_location">Emplacement du fichier : %s</string>
+    <string name="file_saved_at">Enregistré Ã  : %s</string>
+    <string name="log_file_deleted">Fichier journal supprimé</string>
+    <string name="failed_to_delete_log">Échec de la suppression du fichier journal</string>
+    <string name="error_deleting_file">Erreur lors de la suppression du fichier : %s</string>
+    <string name="error_loading_apps">Erreur lors du chargement des applications : %s</string>
+    <string name="gamebar_logging_enabled_overlay_off">%s : Journalisation GameBar activée mais la superposition GameBar est DÉSACTIVÉE. Activez GameBar pour collecter les journaux.</string>
+    <string name="gamebar_logging_enabled_overlay_off_generic">Journalisation GameBar activée mais la superposition GameBar est DÉSACTIVÉE. Activez GameBar pour collecter les journaux.</string>
+    <string name="app_gamebar_log_started">Journal GameBar de %s démarré</string>
+    <string name="package_gamebar_log_started">Journal GameBar de %s démarré</string>
+    <string name="app_gamebar_log_ended">Journal GameBar de %s terminé</string>
+    <string name="package_gamebar_log_ended">Journal GameBar de %s terminé</string>
+    <string name="cannot_start_logging_overlay_off">Impossible de démarrer la journalisation - la superposition GameBar est DÉSACTIVÉE</string>
+    <string name="manual_logging_started">%s : Journalisation manuelle démarrée</string>
+    <string name="manual_logging_started_package">Journalisation manuelle démarrée pour %s</string>
+    <string name="auto_logging_enabled_message">Cette application a la journalisation automatique activée. Les journaux sont enregistrés automatiquement.</string>
+    <string name="manual_logging_stopped_saved">Journalisation manuelle arrÃªtée et enregistrée</string>
+    <string name="capture_stopped_exported">Capture arrÃªtée et données exportées</string>
+    <string name="capture_started">Capture démarrée</string>
+    <string name="overlay_format_changed">Format de superposition : %s</string>
+    <string name="failed_to_load_analytics">Échec du chargement des données d\'analyse</string>
+    <string name="screenshot_taken">Capture d\'écran prise</string>
+    <string name="failed_to_take_screenshot">Échec de la capture d\'écran</string>
+    <string name="screen_recorder_not_available">Enregistreur d\'écran non disponible</string>
+    <string name="screen_recording_started">Enregistrement d\'écran démarré</string>
+    <string name="screen_recording_stopped">Enregistrement d\'écran arrêté</string>
+    <string name="failed_to_toggle_screen_recording">Échec de la bascule de l\'enregistrement d\'écran</string>
+
+    <!-- Dialog Titles and Messages -->
+    <string name="dialog_session_analytics">Analyse de Session</string>
+    <string name="dialog_manual_logs">Journaux Manuels</string>
+    <string name="dialog_delete_log_title">Supprimer le Fichier Journal</string>
+    <string name="dialog_delete_log_message">ÃŠtes-vous sûr de vouloir supprimer ce fichier journal é\n\n%s</string>
+    <string name="dialog_logging_parameters_title">Paramètres de Journalisation</string>
+    <string name="dialog_logging_parameters_message">Sélectionnez les paramètres Ã  inclure dans les journaux :</string>
+    <string name="button_actions">Actions</string>
+    <string name="button_close">Fermer</string>
+    <string name="button_delete">Supprimer</string>
+    <string name="button_cancel">Annuler</string>
+    <string name="button_apply">Appliquer</string>
+    <string name="button_reset">Réinitialiser</string>
+    <!-- Hints and Content Descriptions -->
+    <string name="hint_search_logs">Rechercher des journaux...</string>
+    <string name="hint_search_app_logs">Rechercher les journaux de %s...</string>
+    <string name="hint_search_apps">Rechercher des applications...</string>
+    <string name="hint_search_fonts">Rechercher des polices...</string>
+    <string name="content_desc_expand_collapse">Développer/Réduire</string>
+
+</resources>

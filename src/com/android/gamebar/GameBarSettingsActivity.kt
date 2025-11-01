@@ -69,7 +69,7 @@ class GameBarSettingsActivity : CollapsingToolbarBaseActivity() {
                 try {
                     startActivity(Intent(this, GameBarLogActivity::class.java))
                 } catch (e: Exception) {
-                    Toast.makeText(this, "Error: ${e.message}", Toast.LENGTH_LONG).show()
+                    Toast.makeText(this, getString(R.string.error_message, e.message), Toast.LENGTH_LONG).show()
                     e.printStackTrace()
                 }
                 true
@@ -84,7 +84,7 @@ class GameBarSettingsActivity : CollapsingToolbarBaseActivity() {
                     val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
                     startActivity(intent)
                 } catch (e: Exception) {
-                    Toast.makeText(this, "Unable to open user guide: ${e.message}", Toast.LENGTH_LONG).show()
+                    Toast.makeText(this, getString(R.string.unable_to_open_guide, e.message), Toast.LENGTH_LONG).show()
                     e.printStackTrace()
                 }
                 true
@@ -103,7 +103,7 @@ class GameBarSettingsActivity : CollapsingToolbarBaseActivity() {
         try {
             startActivityForResult(intent, REQUEST_CODE_OPEN_CSV)
         } catch (e: Exception) {
-            Toast.makeText(this, "File picker not available: ${e.message}", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, getString(R.string.file_picker_unavailable, e.message), Toast.LENGTH_LONG).show()
         }
     }
     
@@ -122,11 +122,11 @@ class GameBarSettingsActivity : CollapsingToolbarBaseActivity() {
             // Open analytics activity with this file
             val intent = Intent(this, LogAnalyticsActivity::class.java).apply {
                 putExtra(LogAnalyticsActivity.EXTRA_LOG_FILE_PATH, tempFile.absolutePath)
-                putExtra(LogAnalyticsActivity.EXTRA_LOG_FILE_NAME, uri.lastPathSegment ?: "External Log")
+                putExtra(LogAnalyticsActivity.EXTRA_LOG_FILE_NAME, uri.lastPathSegment ?: getString(R.string.external_log))
             }
             startActivity(intent)
         } catch (e: Exception) {
-            Toast.makeText(this, "Error opening file: ${e.message}", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, getString(R.string.error_opening_file, e.message), Toast.LENGTH_LONG).show()
             e.printStackTrace()
         }
     }

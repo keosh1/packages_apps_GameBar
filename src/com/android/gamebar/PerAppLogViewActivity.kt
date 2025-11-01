@@ -22,9 +22,9 @@ class PerAppLogViewActivity : CollapsingToolbarBaseActivity() {
         setContentView(R.layout.activity_gamebar_log)
         
         val packageName = intent.getStringExtra(EXTRA_PACKAGE_NAME) ?: ""
-        val appName = intent.getStringExtra(EXTRA_APP_NAME) ?: "Unknown App"
+        val appName = intent.getStringExtra(EXTRA_APP_NAME) ?: getString(R.string.unknown_app)
         
-        title = "Logs for $appName"
+        title = getString(R.string.logs_for_app, appName)
         
         if (savedInstanceState == null) {
             val fragment = PerAppLogViewFragment().apply {
